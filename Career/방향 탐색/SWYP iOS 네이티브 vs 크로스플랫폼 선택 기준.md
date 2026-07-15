@@ -1,6 +1,6 @@
 # SWYP iOS 네이티브 vs 크로스플랫폼 선택 기준
 
-> 연결 Daily: [[Daily/2026-05-24]]
+> 연결 Daily: [[2026-05-24]]
 > 관련 노트: [[Conversations/Mobile Mentoring/iOS 네이티브 커리어 방향/1. AIOps, AI헬스케어 조교, Swyp 선택 기준]]
 > 목적: SWYP 앱서비스를 진행할 때 iOS 네이티브, Flutter, React Native 중 어떤 선택이 현재 커리어 방향에 가장 도움이 되는지 비교한다.
 

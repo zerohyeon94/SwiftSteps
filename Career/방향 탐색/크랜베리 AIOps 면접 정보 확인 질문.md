@@ -1,6 +1,6 @@
 # 크랜베리 AIOps 면접 정보 확인 질문
 
-> 연결 Daily: [[Daily/2026-05-24]]
+> 연결 Daily: [[2026-05-24]]
 > 관련 노트: [[Conversations/Mobile Mentoring/iOS 네이티브 커리어 방향/1. AIOps, AI헬스케어 조교, Swyp 선택 기준]]
 > 회사 비교: [[Career/방향 탐색/크랜베리 vs 넥스트러너스 회사 성장성 비교]]
 > 이력서 기반 면접 준비: [[Career/방향 탐색/크랜베리 AIOps 면접 준비 - 개발직무 이력서 기반]]

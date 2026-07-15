@@ -15,6 +15,7 @@ Setup:
 
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -53,8 +54,9 @@ if not VAULT_PATH.exists():
 today = datetime.now().strftime("%Y-%m-%d")
 tomorrow = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
 
-today_note_path = VAULT_PATH / "Daily" / f"{today}.md"
-tomorrow_note_path = VAULT_PATH / "Daily" / f"{tomorrow}.md"
+# Daily 노트는 월별 하위 폴더(Daily/YYYY-MM/)에 저장
+today_note_path = VAULT_PATH / "Daily" / today[:7] / f"{today}.md"
+tomorrow_note_path = VAULT_PATH / "Daily" / tomorrow[:7] / f"{tomorrow}.md"
 
 
 def read_today_note() -> str:
@@ -69,6 +71,109 @@ def parse_review_json(text: str) -> dict:
     return json.loads(cleaned)
 
 
+def content_before_evening_review(content: str) -> str:
+    for marker in ("## 🌙 저녁 회고", "## 🌙 오늘 하루 피드백"):
+        if marker in content:
+            return content.split(marker, 1)[0]
+    return content
+
+
+def has_blank_input_section(content: str) -> bool:
+    scoped = content_before_evening_review(content)
+    section_keywords = [
+        "학습 메모",
+        "학습 내용",
+        "실습/프로젝트 메모",
+        "프로젝트 진행 상황",
+        "오늘 하루 정리",
+        "오늘 배운 개념 연결",
+    ]
+
+    for keyword in section_keywords:
+        pattern = re.compile(
+            rf"^##\s+.*{re.escape(keyword)}.*$\n(?P<body>.*?)(?=^##\s+|\Z)",
+            re.MULTILINE | re.DOTALL,
+        )
+        for match in pattern.finditer(scoped):
+            body = match.group("body")
+            if re.search(r"(?m)^\s*-\s*$", body):
+                return True
+    return False
+
+
+def should_commit_as_not_progressed(content: str) -> bool:
+    scoped = content_before_evening_review(content)
+    has_unchecked_checkbox = bool(re.search(r"(?m)^\s*-\s*\[ \]", scoped))
+    return has_unchecked_checkbox or has_blank_input_section(scoped)
+
+
+def auto_commit_not_progressed(note_path: Path, note_date: str, should_commit: bool) -> None:
+    if not should_commit:
+        print("ℹ️  미완료 체크박스/빈 입력 영역이 없어 진행하지 않음 커밋을 생략합니다.")
+        return
+
+    repo_check = subprocess.run(
+        ["git", "-C", str(VAULT_PATH), "rev-parse", "--is-inside-work-tree"],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if repo_check.returncode != 0:
+        print("⚠️  Git 저장소가 아니어서 진행하지 않음 커밋을 건너뜁니다.")
+        return
+
+    try:
+        relative_note_path = note_path.relative_to(VAULT_PATH)
+    except ValueError:
+        relative_note_path = note_path
+
+    add_result = subprocess.run(
+        ["git", "-C", str(VAULT_PATH), "add", "--", str(relative_note_path)],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if add_result.returncode != 0:
+        print("⚠️  Daily Note 자동 스테이징 실패:")
+        print(add_result.stderr or add_result.stdout)
+        return
+
+    diff_result = subprocess.run(
+        ["git", "-C", str(VAULT_PATH), "diff", "--cached", "--quiet", "--", str(relative_note_path)],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if diff_result.returncode == 0:
+        print("ℹ️  커밋할 Daily Note 변경분이 없어 진행하지 않음 커밋을 생략합니다.")
+        return
+
+    commit_result = subprocess.run(
+        [
+            "git",
+            "-C",
+            str(VAULT_PATH),
+            "commit",
+            "--only",
+            "-m",
+            f"docs(daily): {note_date} 진행하지 않음 기록",
+            "-m",
+            "체크박스 또는 직접 작성 영역이 미완료라 진행하지 않음을 기록하고 전날 Daily 내용을 보존합니다.",
+            "--",
+            str(relative_note_path),
+        ],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if commit_result.returncode != 0:
+        print("⚠️  진행하지 않음 자동 커밋 실패:")
+        print(commit_result.stderr or commit_result.stdout)
+        return
+
+    print(f"✅ 진행하지 않음 자동 커밋 완료: {note_date}")
+
+
 def get_review(note_content: str) -> dict:
     prompt = f"""
 당신은 개발자의 학습 코치입니다.
@@ -81,7 +186,7 @@ def get_review(note_content: str) -> dict:
 {{
   "completed": ["완료된 항목1", "완료된 항목2"],
   "feedback": ["피드백1", "피드백2"],
-  "tomorrow_tasks": ["내일 할 일1", "내일 할 일2", "내일 할 일3"],
+  "tomorrow_tasks": ["내일 할 일1", "내일 할 일2"],
   "concept_connections": ["개념 연결 추천1", "개념 연결 추천2"],
   "english_tip": "오늘 학습과 관련된 영어 표현 1가지"
 }}
@@ -89,8 +194,9 @@ def get_review(note_content: str) -> dict:
 기준:
 - 완료 항목: 체크박스 [x] 또는 내용이 작성된 섹션 기준
 - 피드백: 잘한 점 1개 + 개선 제안 1개
-- 내일 할 일: 오늘 미완료 + 자연스러운 다음 단계
-- 평일 계획: 근무 시간(10:00-17:00)을 제외하고 새벽 짧은 학습과 퇴근 후 집중 작업으로 나눌 것
+- 내일 할 일: 오늘 미완료 + 자연스러운 다음 단계. 시간대, 이동 시간, 회사 업무는 제외할 것
+- 내일 할 일은 필수 1-2개로 작게 제한하고, IT 동향만 별도 읽기 자료로 연결할 수 있게 제안할 것
+- 주식 관련 항목은 사용자가 명시적으로 요청하지 않았다면 내일 할 일이나 읽기 자료로 제안하지 말 것
 - 개념 연결: 오늘 학습한 개념과 연결되는 추천 개념
 """
 
@@ -158,7 +264,7 @@ def update_evening_review(review: dict) -> None:
 ### 피드백
 {feedback_str}
 
-### 내일 추천 일정
+### 내일 추천 항목
 {tomorrow_str}
 
 ### 연결 개념 추천
@@ -184,56 +290,79 @@ def create_tomorrow_note(review: dict) -> None:
         return
 
     tomorrow_tasks = "\n".join(f"- [ ] {task}" for task in review["tomorrow_tasks"])
+    if not tomorrow_tasks:
+        tomorrow_tasks = "- [ ] 오늘의 핵심 학습 파일 1개 읽기"
+    tomorrow_year = tomorrow[:4]
 
     content = f"""# 📅 Daily Note - {tomorrow}
 
-## ✅ 오늘의 수행 목록
-> Codex 추천 (수정 가능)
+## ✅ 오늘 수행 목록
+> 자동 생성 초안. 시간대, 이동 시간, 회사 업무는 넣지 않습니다.
+
+### 필수
 
 {tomorrow_tasks}
+
+### 짧은 읽기
+- [ ] [[Learning/IT Trends/{tomorrow_year}/{tomorrow} - 주제]] 읽기
+
+### 선택
+- [ ] (선택) [[Conversations/.../선택 주제명]] 훑기
+
+### 마무리
+- [ ] 오늘 하루 정리 3줄 남기기
 
 ---
 
 ## 🧑‍🏫 오늘의 멘토링 시작
 > 아침에 Codex가 전날 Daily Note를 읽고 Conversations 학습 파일을 생성한 뒤 연결합니다.
 
-- 분야:
-- 학습 파일: [[Conversations/.../1. 주제명]]
-- 시작 문장: "[분야] 멘토링을 시작하겠습니다. 질문: ..."
+- [ ] [분야] 멘토링 수행
+  - 학습 파일: [[Conversations/.../1. 주제명]]
+  - 시작 문장: "[분야] 멘토링을 시작하겠습니다. 질문: ..."
+  - 답변 파일:
+  - 상태 판단: 진행 전 / 완료 / 이월
 
 ---
 
-## 🕰️ 오늘 시간 블록
+## 🎯 오늘의 학습 추천
 
-- 새벽:
-- 근무(평일 10:00-17:00):
-- 퇴근 후:
-- 회복/정리:
+### [주제]
+📁 [[Conversations/.../1. 주제명]]
+> 아침에 Codex가 실제 학습 파일을 생성한 뒤 연결합니다.
 
 ---
 
-## 📚 학습 내용
+## 🗞️ 오늘의 짧은 읽기
+
+### IT 동향
+- 제목: [[Learning/IT Trends/{tomorrow_year}/{tomorrow} - 주제]]
+- 한 줄 요약:
+- 연결점:
+
+---
+
+## 📚 학습 메모
 > 오늘 공부한 개념/기술 (직접 작성)
 
-### 개념명:
-- **언제 쓰는가?** (상황/문제):
-- **무엇인가?** (정의):
-- **어떻게 쓰는가?** (예시 코드):
-```python
-
-```
-- **연관 개념**:
-- **태그**: #
+-
 
 ---
 
-## 🛠️ 프로젝트 진행 상황
-> 오늘 작업한 프로젝트 내용
+## 🧪 실습/프로젝트 메모
+> 개인 프로젝트 또는 포트폴리오 관련으로 직접 작성
 
-- **프로젝트명**:
-- **오늘 한 것**:
-- **막힌 부분**:
-- **다음에 할 것**:
+### [개인 프로젝트명]
+- 오늘 한 것:
+- 막힌 부분:
+- 다음에 할 것:
+
+---
+
+## 📝 오늘 하루 정리
+> 오늘 하루를 내 말로 짧게 정리합니다.
+
+-
 
 ---
 
@@ -253,7 +382,7 @@ def create_tomorrow_note(review: dict) -> None:
 ### 피드백
 -
 
-### 내일 추천 일정
+### 내일 추천 항목
 -
 
 ### 연결 개념 추천
@@ -273,12 +402,16 @@ def main() -> None:
 
     print("📖 오늘 노트 읽는 중...")
     note_content = read_today_note()
+    needs_not_progressed_commit = should_commit_as_not_progressed(note_content)
 
     print("🤖 Codex 분석 중...")
     review = get_review(note_content)
 
     print("✍️  저녁 회고 작성 중...")
     update_evening_review(review)
+
+    print("🧾 미완료 상태 커밋 확인 중...")
+    auto_commit_not_progressed(today_note_path, today, needs_not_progressed_commit)
 
     print("📅 내일 노트 생성 중...")
     create_tomorrow_note(review)
