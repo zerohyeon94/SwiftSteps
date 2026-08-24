@@ -1,11 +1,13 @@
 # YYYY-Www Swift · Kotlin 주간 통합 실습
 
+> [!warning] 사용 중단
+> 이 템플릿은 2026-07-21 학습 방식 전환으로 더 이상 새 Daily에서 사용하지 않는다. 새 누적 복습은 [[Templates/Swift Kotlin 주간 복습 퀴즈]]를 사용한다.
+
 > Daily: [[YYYY-MM-DD]]
 > 분야: Mobile Mentoring
 > 학습 모드: 토요일 코드 실행 / 일요일 오류 수정·재작성
 > 학습 비중: Swift 70% / Kotlin 30%
 > 로드맵: [[Schedule/장기 로드맵/Swift Kotlin 모바일 네이티브 학습 로드맵]]
-> 멘토링 시작 문장: "Mobile 멘토링을 시작하겠습니다. 질문: 이번 주 이론 중 코드로 검증할 2~3개 주제는 무엇인가요?"
 
 ## 이번 주 이론 파일
 
