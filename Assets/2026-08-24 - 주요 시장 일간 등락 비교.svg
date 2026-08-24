@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs><style>text{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#172033}.title{font-size:36px;font-weight:750}.subtitle{font-size:19px;fill:#526079}.h2{font-size:23px;font-weight:700}.body{font-size:18px}.small{font-size:15px;fill:#526079}.num{font-size:18px;font-weight:700}</style><filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#1b2a4a" flood-opacity="0.10"/></filter></defs>
+  <rect width="1200" height="700" rx="30" fill="#f6f8fc"/>
+  <text x="60" y="68" class="title">2026-08-21 주요 지수 일간 등락</text>
+  <text x="60" y="103" class="subtitle">같은 날의 상승폭을 비교하되, 하루 반등과 주간 흐름은 분리해서 본다</text>
+  <rect x="55" y="145" width="760" height="455" rx="24" fill="#fff" stroke="#d5deec" filter="url(#shadow)"/>
+  <text x="90" y="190" class="h2">정규장 일간 등락률</text>
+  <line x1="235" y1="215" x2="235" y2="555" stroke="#bcc7d8" stroke-width="2"/>
+  <g class="small"><text x="230" y="580">0%</text><text x="330" y="580">1%</text><text x="430" y="580">2%</text><text x="530" y="580">3%</text><text x="630" y="580">4%</text><text x="730" y="580">5%</text></g>
+  <g stroke="#e3e8f1" stroke-width="1"><line x1="335" y1="215" x2="335" y2="555"/><line x1="435" y1="215" x2="435" y2="555"/><line x1="535" y1="215" x2="535" y2="555"/><line x1="635" y1="215" x2="635" y2="555"/><line x1="735" y1="215" x2="735" y2="555"/></g>
+  <text x="90" y="258" class="body">코스피</text><rect x="235" y="233" width="88" height="36" rx="8" fill="#5f87d8"/><text x="335" y="258" class="num">+0.88%</text>
+  <text x="90" y="323" class="body">코스닥</text><rect x="235" y="298" width="510" height="36" rx="8" fill="#2f9d78"/><text x="755" y="323" class="num">+5.10%</text>
+  <text x="90" y="388" class="body">S&amp;P 500</text><rect x="235" y="363" width="40" height="36" rx="8" fill="#7b69c6"/><text x="287" y="388" class="num">+0.4%</text>
+  <text x="90" y="453" class="body">다우</text><rect x="235" y="428" width="100" height="36" rx="8" fill="#7b69c6"/><text x="347" y="453" class="num">+1.0%</text>
+  <text x="90" y="518" class="body">나스닥</text><rect x="235" y="493" width="40" height="36" rx="8" fill="#7b69c6"/><text x="287" y="518" class="num">+0.4%</text>
+
+  <rect x="845" y="145" width="300" height="210" rx="24" fill="#fff" stroke="#d5deec" filter="url(#shadow)"/>
+  <text x="880" y="190" class="h2">금리 배경</text><text x="880" y="245" class="subtitle">미 10년물</text><text x="880" y="300" style="font:750 48px -apple-system, BlinkMacSystemFont, sans-serif;fill:#ad5a1f">4.68%</text><text x="880" y="330" class="small">연준 H.15 일별 표</text>
+  <rect x="845" y="385" width="300" height="215" rx="24" fill="#fff" stroke="#d5deec" filter="url(#shadow)"/>
+  <text x="880" y="430" class="h2">미국 주간 등락</text><text x="880" y="475" class="body">S&amp;P 500  <tspan fill="#c65353">−1.4%</tspan></text><text x="880" y="515" class="body">다우       <tspan fill="#c65353">−0.8%</tspan></text><text x="880" y="555" class="body">나스닥     <tspan fill="#c65353">−2.1%</tspan></text>
+  <rect x="55" y="625" width="1090" height="45" rx="14" fill="#fff4d9"/><text x="80" y="654" class="small">시각화 범위: 본문에 출처가 명시된 종가·등락률만 사용. 지수 수준이 다른 시장의 가격 규모를 비교하는 그림은 아니다.</text>
+</svg>

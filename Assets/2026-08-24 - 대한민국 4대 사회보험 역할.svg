@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs><style>text{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#172033}.title{font-size:36px;font-weight:750}.subtitle{font-size:19px;fill:#526079}.h2{font-size:25px;font-weight:700}.label{font-size:17px;font-weight:650}.body{font-size:16px}.small{font-size:15px;fill:#526079}</style><filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#1b2a4a" flood-opacity="0.10"/></filter></defs>
+  <rect width="1200" height="720" rx="30" fill="#f6f8fc"/>
+  <text x="60" y="68" class="title">4대 사회보험은 서로 다른 위험을 나눈다</text>
+  <text x="60" y="103" class="subtitle">월급명세서의 공제 항목을 같은 적금처럼 보지 않고, 보호 대상·급여·부담 구조로 구분한다</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="145" width="525" height="230" rx="24" fill="#fff" stroke="#d5deec"/>
+    <rect x="620" y="145" width="525" height="230" rx="24" fill="#fff" stroke="#d5deec"/>
+    <rect x="55" y="405" width="525" height="230" rx="24" fill="#fff" stroke="#d5deec"/>
+    <rect x="620" y="405" width="525" height="230" rx="24" fill="#fff" stroke="#d5deec"/>
+  </g>
+  <rect x="55" y="145" width="525" height="62" rx="24" fill="#e8efff"/><text x="90" y="186" class="h2">국민연금</text>
+  <text x="90" y="240" class="label">보호 위험</text><text x="200" y="240" class="body">노후·장애·유족의 소득 공백</text>
+  <text x="90" y="282" class="label">주요 급여</text><text x="200" y="282" class="body">노령·장애·유족연금</text>
+  <text x="90" y="324" class="label">기본 부담</text><text x="200" y="324" class="body">일반 사업장가입자는 근로자·사용자 분담</text>
+  <rect x="620" y="145" width="525" height="62" rx="24" fill="#e7f7f0"/><text x="655" y="186" class="h2">건강보험</text>
+  <text x="655" y="240" class="label">보호 위험</text><text x="765" y="240" class="body">질병·부상에 따른 의료비 부담</text>
+  <text x="655" y="282" class="label">주요 급여</text><text x="765" y="282" class="body">진료비 중 보험 급여 범위 분담</text>
+  <text x="655" y="324" class="label">기본 부담</text><text x="765" y="324" class="body">직장가입자는 근로자·사용자 분담</text>
+  <rect x="55" y="405" width="525" height="62" rx="24" fill="#fff2d8"/><text x="90" y="446" class="h2">고용보험</text>
+  <text x="90" y="500" class="label">보호 위험</text><text x="200" y="500" class="body">실업·고용 유지·재취업의 단절</text>
+  <text x="90" y="542" class="label">주요 급여</text><text x="200" y="542" class="body">구직급여·직업능력·고용 안정 지원</text>
+  <text x="90" y="584" class="label">기본 부담</text><text x="200" y="584" class="body">근로자·사용자 부담 항목이 서로 다를 수 있음</text>
+  <rect x="620" y="405" width="525" height="62" rx="24" fill="#ffe9e9"/><text x="655" y="446" class="h2">산재보험</text>
+  <text x="655" y="500" class="label">보호 위험</text><text x="765" y="500" class="body">업무상 사고·질병·장해·사망</text>
+  <text x="655" y="542" class="label">주요 급여</text><text x="765" y="542" class="body">치료·휴업·장해·유족 보상</text>
+  <text x="655" y="584" class="label">기본 부담</text><text x="765" y="584" class="body">사업주가 보험료 전액 부담</text>
+  <rect x="55" y="660" width="1090" height="35" rx="12" fill="#eaf0fb"/><text x="82" y="683" class="small">실제 가입·급여 요건과 보험료율은 자격·사업장·시점에 따라 공식 안내에서 따로 확인한다.</text>
+</svg>

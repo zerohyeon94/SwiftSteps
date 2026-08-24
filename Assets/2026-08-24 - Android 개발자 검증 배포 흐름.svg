@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <defs>
+    <style>text { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; fill:#172033 }.title{font-size:36px;font-weight:750}.subtitle{font-size:19px;fill:#526079}.h2{font-size:23px;font-weight:700}.body{font-size:17px}.small{font-size:15px;fill:#526079}</style>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#1b2a4a" flood-opacity="0.10"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#65758b"/></marker>
+  </defs>
+  <rect width="1200" height="680" rx="30" fill="#f6f8fc"/>
+  <text x="60" y="68" class="title">Android 배포 검증은 세 자산의 연결이다</text>
+  <text x="60" y="103" class="subtitle">APK 빌드 성공만으로는 개발자·패키지·서명 소유 관계가 확인되지 않는다</text>
+  <g filter="url(#shadow)">
+    <rect x="55" y="155" width="290" height="100" rx="20" fill="#fff" stroke="#d5deec"/>
+    <rect x="455" y="155" width="290" height="100" rx="20" fill="#fff" stroke="#d5deec"/>
+    <rect x="855" y="155" width="290" height="100" rx="20" fill="#fff" stroke="#d5deec"/>
+  </g>
+  <circle cx="100" cy="205" r="25" fill="#d9ecff"/><text x="91" y="214" class="h2">①</text><text x="140" y="195" class="h2">개발자 신원</text><text x="140" y="225" class="small">개인·조직의 검증 주체</text>
+  <circle cx="500" cy="205" r="25" fill="#e6f5eb"/><text x="491" y="214" class="h2">②</text><text x="540" y="195" class="h2">패키지 이름</text><text x="540" y="225" class="small">앱의 고유 식별자</text>
+  <circle cx="900" cy="205" r="25" fill="#fff0d7"/><text x="891" y="214" class="h2">③</text><text x="940" y="195" class="h2">서명 키</text><text x="940" y="225" class="small">출처·업데이트 연속성</text>
+  <line x1="200" y1="255" x2="500" y2="350" stroke="#65758b" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="600" y1="255" x2="600" y2="340" stroke="#65758b" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="1000" y1="255" x2="700" y2="350" stroke="#65758b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="390" y="345" width="420" height="105" rx="23" fill="#eaf0ff" stroke="#afc3ed" filter="url(#shadow)"/>
+  <text x="455" y="388" class="h2">등록·검증 상태</text><text x="455" y="420" class="body">세 자산이 누구의 배포 권한인지 연결</text>
+  <line x1="600" y1="450" x2="600" y2="505" stroke="#65758b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="140" y="505" width="400" height="105" rx="22" fill="#fff" stroke="#d5deec" filter="url(#shadow)"/>
+  <text x="185" y="548" class="h2">CI/CD 릴리스 점검</text><text x="185" y="579" class="body">등록 상태·실제 서명 산출물 대조</text>
+  <rect x="660" y="505" width="400" height="105" rx="22" fill="#e9f8f0" stroke="#acd9c5" filter="url(#shadow)"/>
+  <text x="705" y="548" class="h2">인증된 기기의 설치 확인</text><text x="705" y="579" class="body">배포 채널·국가·기기 조건과 함께 판단</text>
+  <line x1="540" y1="557" x2="660" y2="557" stroke="#65758b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="55" y="630" width="1090" height="32" rx="12" fill="#fff4d9"/><text x="85" y="652" class="small">운영 원칙: 신원 문서·서명 키·자동화 자격증명을 한 곳에 무분별하게 섞지 않는다.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <defs><style>text{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;fill:#172033}.title{font-size:36px;font-weight:750}.subtitle{font-size:19px;fill:#526079}.h2{font-size:22px;font-weight:700}.body{font-size:16px}.small{font-size:14px;fill:#526079}</style><filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#1b2a4a" flood-opacity="0.10"/></filter><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#79869a"/></marker></defs>
+  <rect width="1200" height="650" rx="30" fill="#f6f8fc"/>
+  <text x="60" y="68" class="title">국제기구 뉴스를 결과로 오해하지 않는 5단계</text>
+  <text x="60" y="103" class="subtitle">일정·공개·논의·채택·현장 변화는 같은 시점의 사실이 아니다</text>
+  <line x1="145" y1="270" x2="1050" y2="270" stroke="#c1cad8" stroke-width="5" marker-end="url(#arrow)"/>
+  <g filter="url(#shadow)">
+    <rect x="55" y="150" width="190" height="235" rx="22" fill="#e8f7f0" stroke="#9dd0bb"/>
+    <rect x="280" y="150" width="190" height="235" rx="22" fill="#fff" stroke="#d5deec"/>
+    <rect x="505" y="150" width="190" height="235" rx="22" fill="#fff" stroke="#d5deec"/>
+    <rect x="730" y="150" width="190" height="235" rx="22" fill="#fff" stroke="#d5deec"/>
+    <rect x="955" y="150" width="190" height="235" rx="22" fill="#fff" stroke="#d5deec"/>
+  </g>
+  <circle cx="150" cy="215" r="30" fill="#2f9d78"/><text x="140" y="225" class="h2" fill="#fff">1</text><text x="95" y="315" class="h2">일정 확인</text><text x="82" y="345" class="small">언제·어디서·무엇을</text><text x="95" y="370" class="small">다루기로 했는가</text>
+  <circle cx="375" cy="215" r="30" fill="#dfe6f0"/><text x="365" y="225" class="h2">2</text><text x="320" y="315" class="h2">개막·공개</text><text x="307" y="345" class="small">회의가 실제 열렸는가</text><text x="320" y="370" class="small">문서 원문이 나왔는가</text>
+  <circle cx="600" cy="215" r="30" fill="#dfe6f0"/><text x="590" y="225" class="h2">3</text><text x="545" y="315" class="h2">발언·논의</text><text x="532" y="345" class="small">확인 사실과 주장·제안</text><text x="555" y="370" class="small">누가 무엇을 말했나</text>
+  <circle cx="825" cy="215" r="30" fill="#dfe6f0"/><text x="815" y="225" class="h2">4</text><text x="770" y="315" class="h2">채택·기록</text><text x="758" y="345" class="small">결의·성명·최종보고서</text><text x="775" y="370" class="small">공식 산출물이 있나</text>
+  <circle cx="1050" cy="215" r="30" fill="#dfe6f0"/><text x="1040" y="225" class="h2">5</text><text x="995" y="315" class="h2">후속 변화</text><text x="982" y="345" class="small">정부 조치·이행·현장 결과</text><text x="1005" y="370" class="small">무엇이 실제 달라졌나</text>
+  <rect x="55" y="430" width="1090" height="145" rx="22" fill="#fff" stroke="#d5deec" filter="url(#shadow)"/>
+  <text x="90" y="474" class="h2">2026-08-24 06:51 KST 기준</text>
+  <text x="90" y="514" class="body">확인됨: ATT CSP12 개최 일정 · ATT Monitor 보고서 공개 행사 일정 · 유엔 안보리 예정 의제</text>
+  <text x="90" y="548" class="body">추후 확인: 실제 개막·보고서 원문 · 참가자 발언 · 채택 문서 · 각국의 후속 조치와 현장 변화</text>
+  <rect x="55" y="600" width="1090" height="30" rx="12" fill="#fff4d9"/><text x="85" y="621" class="small">핵심 질문: 지금 읽는 문장은 위 다섯 단계 중 어디까지 공식 기록으로 확인됐는가?</text>
+</svg>
