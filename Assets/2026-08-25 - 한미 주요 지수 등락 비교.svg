@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 8월 24일 한국과 미국 주요 지수의 일간 등락률</title>
+  <desc id="desc">KOSPI, KOSDAQ, S&amp;P 500, 다우, 나스닥의 일간 등락률을 비교한 막대그래프</desc>
+  <rect width="1200" height="650" fill="#fbfcfe"/>
+  <text x="70" y="70" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="700" fill="#18324b">2026-08-24 주요 지수: 한국은 엇갈림, 미국은 기술주 약세</text>
+  <text x="70" y="105" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">일간 등락률(%) · KOSPI·KOSDAQ은 한국 정규장, 미국 지수는 같은 날 뉴욕 마감</text>
+  <line x1="125" y1="330" x2="1110" y2="330" stroke="#506b83" stroke-width="2"/>
+  <line x1="125" y1="180" x2="1110" y2="180" stroke="#d7e0e8" stroke-width="1" stroke-dasharray="6 6"/>
+  <line x1="125" y1="480" x2="1110" y2="480" stroke="#d7e0e8" stroke-width="1" stroke-dasharray="6 6"/>
+  <text x="72" y="186" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">+3%</text>
+  <text x="80" y="336" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">0%</text>
+  <text x="72" y="486" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">−3%</text>
+  <rect x="205" y="330" width="105" height="156" rx="8" fill="#d95d5d"/>
+  <text x="206" y="550" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#23394d">KOSPI</text>
+  <text x="214" y="514" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#b33b3b">−3.12%</text>
+  <rect x="390" y="259" width="105" height="71" rx="8" fill="#2a9d8f"/>
+  <text x="388" y="550" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#23394d">KOSDAQ</text>
+  <text x="397" y="245" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#167468">+1.42%</text>
+  <rect x="575" y="330" width="105" height="15" rx="8" fill="#d95d5d"/>
+  <text x="570" y="550" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#23394d">S&amp;P 500</text>
+  <text x="590" y="375" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#b33b3b">−0.3%</text>
+  <rect x="760" y="315" width="105" height="15" rx="8" fill="#2a9d8f"/>
+  <text x="775" y="550" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#23394d">다우</text>
+  <text x="780" y="300" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#167468">+0.3%</text>
+  <rect x="945" y="330" width="105" height="40" rx="8" fill="#d95d5d"/>
+  <text x="950" y="550" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#23394d">나스닥</text>
+  <text x="966" y="400" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#b33b3b">−0.8%</text>
+  <rect x="115" y="580" width="990" height="43" rx="10" fill="#eef3f8"/>
+  <text x="145" y="608" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#36556f">수치 출처: KBS·연합뉴스의 한국장 마감, AP의 미국장 마감. 가격 수준이 아니라 같은 날의 변화율만 비교한다.</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">우크라이나 연대 연합 공동성명의 약속과 이행 조건</title>
+  <desc id="desc">공동성명, 정책 약속, 조건부 다국적군 준비, 실제 이행 확인을 순서로 구분한 도식</desc>
+  <rect width="1200" height="610" fill="#fbfcfe"/>
+  <text x="70" y="73" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="700" fill="#1d3557">공동성명은 ‘결정 발표’이고, 실제 지원은 다음 단계에서 확인한다</text>
+  <text x="70" y="108" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#52687d">2026년 8월 24일 공동의장 성명 기준 · 정책 의지와 집행 결과를 분리해서 읽기</text>
+  <path d="M250 285 H355 M540 285 H645 M830 285 H935" stroke="#7997b3" stroke-width="7" fill="none" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#7997b3"/></marker></defs>
+  <rect x="65" y="190" width="195" height="190" rx="22" fill="#dbeafe" stroke="#3b82b6" stroke-width="2"/>
+  <text x="100" y="242" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#174d7a">1. 확인된 회의</text>
+  <text x="90" y="285" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">키이우·화상으로</text>
+  <text x="90" y="318" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">정상들이 모였다는</text>
+  <text x="90" y="351" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">공동의장 발표</text>
+  <rect x="355" y="190" width="195" height="190" rx="22" fill="#e9f8ef" stroke="#2f855a" stroke-width="2"/>
+  <text x="390" y="242" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#1d6b45">2. 정책 약속</text>
+  <text x="380" y="285" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">방공·국방산업</text>
+  <text x="380" y="318" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">제재·에너지 지원</text>
+  <text x="380" y="351" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">강화 의지</text>
+  <rect x="645" y="190" width="195" height="190" rx="22" fill="#fff3d9" stroke="#d28b1e" stroke-width="2"/>
+  <text x="680" y="242" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#965b08">3. 조건부 준비</text>
+  <text x="670" y="285" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">신뢰할 수 있는</text>
+  <text x="670" y="318" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">적대행위 중지 뒤</text>
+  <text x="670" y="351" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">다국적군 배치 준비</text>
+  <rect x="935" y="190" width="195" height="190" rx="22" fill="#fce7ef" stroke="#c0577a" stroke-width="2"/>
+  <text x="970" y="242" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#923b5a">4. 별도 확인</text>
+  <text x="960" y="285" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">지원 물자·일정·</text>
+  <text x="960" y="318" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">법적 절차·현장</text>
+  <text x="960" y="351" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="19" fill="#1f3548">이행은 후속 자료</text>
+  <rect x="95" y="445" width="1010" height="74" rx="14" fill="#eef3f8"/>
+  <text x="130" y="490" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="700" fill="#264653">읽는 기준: 발표·약속·조건·실제 이행을 한 문장으로 합치지 않는다.</text>
+  <text x="70" y="566" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#587087">정확성 한계: 이 그림은 공동성명의 정보 단계를 요약한 것이며, 지원의 실행 또는 충돌 상황을 실시간으로 나타내지 않는다.</text>
+</svg>

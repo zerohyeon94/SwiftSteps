@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 루체른 호수 수상교통의 계절별 운항 확인 구조</title>
+  <desc id="desc">여름, 가을, 겨울의 계절 시간표와 정기선, 특별 상품, 산악철도 연결을 구분한 도식</desc>
+  <rect width="1200" height="650" fill="#f7fbff"/>
+  <text x="70" y="72" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="700" fill="#16324f">루체른 호수: 12월에는 ‘배’보다 ‘운항 종류’를 먼저 확인</text>
+  <text x="70" y="108" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#4a6278">2026년 8월 25일 기준 · 출발 전 SGV의 해당 날짜·노선·표 유효성을 다시 확인</text>
+  <line x1="105" y1="210" x2="1095" y2="210" stroke="#b7cadb" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="220" cy="210" r="24" fill="#2a9d8f"/>
+  <circle cx="550" cy="210" r="24" fill="#e9a23b"/>
+  <circle cx="890" cy="210" r="24" fill="#386fa4"/>
+  <text x="145" y="165" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#195d57">여름</text>
+  <text x="110" y="255" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">5월 23일–9월 6일</text>
+  <text x="464" y="165" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#8a5611">가을</text>
+  <text x="430" y="255" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">9월 7일–10월 18일</text>
+  <text x="820" y="165" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="700" fill="#1f4f79">겨울</text>
+  <text x="730" y="255" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">10월 19일–2027년 4월 16일</text>
+  <rect x="75" y="325" width="325" height="210" rx="20" fill="#e8f5f3" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="110" y="373" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="27" font-weight="700" fill="#195d57">정기 운항</text>
+  <text x="110" y="415" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">• 시간표의 노선·운행일 확인</text>
+  <text x="110" y="452" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">• 교통패스 유효 범위 확인</text>
+  <text x="110" y="489" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">• 산악철도 환승은 별도 시간표</text>
+  <rect x="438" y="325" width="325" height="210" rx="20" fill="#fff4df" stroke="#e9a23b" stroke-width="2"/>
+  <text x="473" y="373" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="27" font-weight="700" fill="#8a5611">관광·특별 운항</text>
+  <text x="473" y="415" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">• 왕복·식사·테마 상품 구분</text>
+  <text x="473" y="452" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">• 별도 표가 필요한 경우 있음</text>
+  <text x="473" y="489" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">• 증기선은 겨울 상시 운항 아님</text>
+  <rect x="800" y="325" width="325" height="210" rx="20" fill="#eaf1fb" stroke="#386fa4" stroke-width="2"/>
+  <text x="835" y="373" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="27" font-weight="700" fill="#1f4f79">12월 18일 동선</text>
+  <text x="835" y="415" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">1. 당일 SGV 시간표</text>
+  <text x="835" y="452" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">2. 탑승하려는 노선·선착장</text>
+  <text x="835" y="489" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="20" fill="#23394d">3. 표와 연결 교통을 분리 확인</text>
+  <text x="70" y="608" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#587087">정확성 한계: 이 그림은 고정 운행을 보장하지 않으며, SGV의 2026 계절 시간표를 읽기 위한 개념도다.</text>
+</svg>
