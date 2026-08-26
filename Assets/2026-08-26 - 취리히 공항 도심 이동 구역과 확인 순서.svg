@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">취리히 공항에서 도심으로 이동할 때 구역과 시간표를 확인하는 순서</title>
+  <desc id="desc">공항 구역 121, 취리히 시 구역 110과 티켓, 실제 시간표를 순서대로 확인하는 개념도</desc>
+  <rect width="1200" height="650" fill="#f7fbff"/>
+  <text x="70" y="72" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="700" fill="#16324f">취리히 공항 → 도심: 노선명보다 구역과 유효 시간을 먼저 확인</text>
+  <text x="70" y="108" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#4a6278">2026년 8월 26일 기준 · ZVV 구역도와 SBB 당일 시간표를 분리해서 보기</text>
+  <path d="M320 300 H445 M755 300 H880" stroke="#7893a8" stroke-width="7" fill="none" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#7893a8"/></marker></defs>
+  <rect x="65" y="190" width="255" height="225" rx="22" fill="#e5f2ff" stroke="#3a7ca5" stroke-width="2"/>
+  <text x="104" y="245" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="27" font-weight="700" fill="#245f84">1. 출발 지점</text>
+  <text x="104" y="290" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#23394d">Zürich Flughafen</text>
+  <text x="104" y="327" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#23394d">요금 구역 121</text>
+  <text x="104" y="365" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">공항 정류장·역·터미널</text>
+  <text x="104" y="392" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">출발 위치를 화면에서 확인</text>
+  <rect x="445" y="190" width="310" height="225" rx="22" fill="#eaf7ef" stroke="#2a9d69" stroke-width="2"/>
+  <text x="482" y="245" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="27" font-weight="700" fill="#21734e">2. 도착 구역</text>
+  <text x="482" y="290" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#23394d">Zürich HB · 도심</text>
+  <text x="482" y="327" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#23394d">요금 구역 110*</text>
+  <text x="482" y="365" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">110은 요금 계산에서 2개 구역</text>
+  <text x="482" y="392" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">목적지 정류장까지 범위를 대조</text>
+  <rect x="880" y="190" width="255" height="225" rx="22" fill="#fff4df" stroke="#d78b29" stroke-width="2"/>
+  <text x="917" y="245" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="27" font-weight="700" fill="#965b08">3. 실제 이동</text>
+  <text x="917" y="290" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#23394d">SBB 시간표</text>
+  <text x="917" y="327" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="21" fill="#23394d">티켓 유효 시간</text>
+  <text x="917" y="365" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">당일 운행·공사·환승 확인</text>
+  <text x="917" y="392" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="18" fill="#587087">예약 여부를 별도로 확인</text>
+  <rect x="80" y="490" width="1040" height="75" rx="14" fill="#eaf0f5"/>
+  <text x="120" y="537" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="23" font-weight="700" fill="#264653">핵심: 같은 공항 이동이라도 ‘교통수단’, ‘통과 구역’, ‘표의 기간’은 서로 다른 확인 항목이다.</text>
+  <text x="70" y="612" font-family="Arial, 'Apple SD Gothic Neo', sans-serif" font-size="17" fill="#587087">정확성 한계: 이 그림은 고정 출발 시각·운임·운행을 표시하지 않는다. 2026년 ZVV 구역도와 실제 SBB 시간표를 출발 전에 다시 확인한다.</text>
+</svg>
