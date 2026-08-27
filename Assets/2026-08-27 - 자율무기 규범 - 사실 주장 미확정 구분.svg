@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 -290 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">자율무기 규범 논의에서 사실과 주장과 미확정 상태의 구분</title>
+  <desc id="desc">2026년 8월 25일 유엔 사무총장과 ICRC 총재의 공동 호소를 확인된 사실, 당사자 평가와 요구, 향후 미확정 규범으로 구분한다.</desc>
+  <rect x="0" y="-290" width="1200" height="1200" fill="#f8fafc"/>
+  <text x="60" y="68" font-family="Apple SD Gothic Neo, sans-serif" font-size="32" font-weight="700" fill="#111827">자율무기 규범 뉴스 읽기: 발표된 일 · 당사자 주장 · 아직 정해지지 않은 일</text>
+  <text x="60" y="104" font-family="Apple SD Gothic Neo, sans-serif" font-size="18" fill="#475569">하나의 공동 성명을 국제 규칙의 ‘즉시 제정’으로 확대 해석하지 않기 위한 정보 층위다.</text>
+  <g font-family="Apple SD Gothic Neo, sans-serif">
+    <rect x="60" y="170" width="330" height="330" rx="20" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="90" y="224" font-size="27" font-weight="700" fill="#166534">확인된 사실</text>
+    <text x="90" y="271" font-size="18" fill="#334155">• 8월 25일 UN·ICRC 공동 호소</text>
+    <text x="90" y="308" font-size="18" fill="#334155">• 새로운 국제 규칙 채택 촉구</text>
+    <text x="90" y="345" font-size="18" fill="#334155">• UNGA·CCW 논의가 존재</text>
+    <text x="90" y="382" font-size="18" fill="#334155">• 11월 CCW 회의는 향후 기회</text>
+    <text x="90" y="447" font-size="17" fill="#166534">출처: UN, ICRC 공식 발표</text>
+    <rect x="435" y="170" width="330" height="330" rx="20" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="465" y="224" font-size="27" font-weight="700" fill="#92400e">당사자의 평가·요구</text>
+    <text x="465" y="271" font-size="18" fill="#334155">• 인간 표적화의 윤리적 경계</text>
+    <text x="465" y="308" font-size="18" fill="#334155">• 민간인 피해 위험 우려</text>
+    <text x="465" y="345" font-size="18" fill="#334155">• 법적 구속력 있는 문서 요구</text>
+    <text x="465" y="382" font-size="18" fill="#334155">• 정치적 행동 촉구</text>
+    <text x="465" y="447" font-size="17" fill="#92400e">공동 호소의 입장이지 합의 결과는 아님</text>
+    <rect x="810" y="170" width="330" height="330" rx="20" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="840" y="224" font-size="27" font-weight="700" fill="#991b1b">미확정·검증 필요</text>
+    <text x="840" y="271" font-size="18" fill="#334155">• 조약 협상·채택 여부와 시점</text>
+    <text x="840" y="308" font-size="18" fill="#334155">• 국가별 수용과 국내 이행</text>
+    <text x="840" y="345" font-size="18" fill="#334155">• 보도된 개별 전장 사용 사실</text>
+    <text x="840" y="382" font-size="18" fill="#334155">• 최종 규칙의 구체적 문구</text>
+    <text x="840" y="447" font-size="17" fill="#991b1b">UN 보도도 일부 보고를 ‘미확인’으로 표기</text>
+  </g>
+</svg>

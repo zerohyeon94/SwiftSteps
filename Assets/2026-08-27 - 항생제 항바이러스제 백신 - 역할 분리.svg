@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 -290 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">항생제, 항바이러스제, 백신의 역할 분리</title>
+  <desc id="desc">세 수단은 각각 세균 감염 치료, 특정 바이러스 치료, 면역 준비에 관여하며 증상만으로 선택할 수 없다는 안내.</desc>
+  <rect x="0" y="-290" width="1200" height="1200" fill="#f8fafc"/>
+  <text x="60" y="68" font-family="Apple SD Gothic Neo, sans-serif" font-size="32" font-weight="700" fill="#1f2937">항생제 · 항바이러스제 · 백신: 같은 ‘감염 대응’이지만 역할은 다르다</text>
+  <text x="60" y="104" font-family="Apple SD Gothic Neo, sans-serif" font-size="18" fill="#475569">질환의 원인과 개인 상태는 의료진이 판단한다. 아래는 개념 구분을 위한 지도다.</text>
+  <g font-family="Apple SD Gothic Neo, sans-serif">
+    <rect x="60" y="165" width="330" height="300" rx="20" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="90" y="215" font-size="29" font-weight="700" fill="#991b1b">항생제</text>
+    <text x="90" y="258" font-size="21" fill="#111827">세균 감염에 작용</text>
+    <text x="90" y="305" font-size="18" fill="#374151">• 바이러스에는 작용하지 않음</text>
+    <text x="90" y="342" font-size="18" fill="#374151">• 처방대로 사용</text>
+    <text x="90" y="379" font-size="18" fill="#374151">• 불필요한 사용은 부작용·</text>
+    <text x="112" y="407" font-size="18" fill="#374151">내성 위험과 연결</text>
+    <rect x="60" y="495" width="330" height="55" rx="12" fill="#fff1f2"/>
+    <text x="225" y="530" font-size="18" text-anchor="middle" fill="#991b1b">‘감기’라는 증상 이름만으로 결정 불가</text>
+    <rect x="435" y="165" width="330" height="300" rx="20" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="465" y="215" font-size="29" font-weight="700" fill="#1e3a8a">항바이러스제</text>
+    <text x="465" y="258" font-size="21" fill="#111827">특정 바이러스에 작용</text>
+    <text x="465" y="305" font-size="18" fill="#374151">• 모든 바이러스에 공통 아님</text>
+    <text x="465" y="342" font-size="18" fill="#374151">• 질환·위험군·시점에 따라</text>
+    <text x="487" y="370" font-size="18" fill="#374151">사용 여부가 달라짐</text>
+    <rect x="435" y="495" width="330" height="55" rx="12" fill="#eff6ff"/>
+    <text x="600" y="530" font-size="18" text-anchor="middle" fill="#1e3a8a">예: 독감 항바이러스제는 처방약</text>
+    <rect x="810" y="165" width="330" height="300" rx="20" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="840" y="215" font-size="29" font-weight="700" fill="#166534">백신</text>
+    <text x="840" y="258" font-size="21" fill="#111827">감염 전 면역 반응 준비</text>
+    <text x="840" y="305" font-size="18" fill="#374151">• 항원을 통해 면역계 학습</text>
+    <text x="840" y="342" font-size="18" fill="#374151">• 이미 생긴 감염의 치료제와</text>
+    <text x="862" y="370" font-size="18" fill="#374151">같은 범주가 아님</text>
+    <rect x="810" y="495" width="330" height="55" rx="12" fill="#f0fdf4"/>
+    <text x="975" y="530" font-size="18" text-anchor="middle" fill="#166534">예방과 치료의 역할을 구분</text>
+  </g>
+</svg>

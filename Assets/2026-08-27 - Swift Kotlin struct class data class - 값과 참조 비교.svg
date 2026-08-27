@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 -290 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Swift struct와 Kotlin class data class의 값과 참조 비교</title>
+  <desc id="desc">Swift struct는 값 타입이고 Kotlin class와 data class는 객체 참조를 다룬다. data class의 copy는 중첩 가변 객체를 깊게 복사하지 않는다는 비교도.</desc>
+  <rect x="0" y="-290" width="1200" height="1200" fill="#f8fafc"/>
+  <text x="60" y="70" font-family="Apple SD Gothic Neo, sans-serif" font-size="32" font-weight="700" fill="#12263f">struct · class · data class: 복사와 기본 기능을 분리해서 읽기</text>
+  <text x="60" y="108" font-family="Apple SD Gothic Neo, sans-serif" font-size="18" fill="#4b5563">“이름이 비슷하다”보다 값/참조 의미와 자동 생성 기능을 각각 확인한다.</text>
+  <g font-family="Apple SD Gothic Neo, sans-serif">
+    <rect x="60" y="150" width="330" height="370" rx="18" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="2"/>
+    <text x="90" y="202" font-size="28" font-weight="700" fill="#075985">Swift struct</text>
+    <text x="90" y="245" font-size="20" fill="#0f172a">값 타입</text>
+    <text x="90" y="286" font-size="18" fill="#334155">• 대입·전달 때 독립된 값 의미</text>
+    <text x="90" y="324" font-size="18" fill="#334155">• 저장 프로퍼티 변경에는 mutating</text>
+    <text x="90" y="362" font-size="18" fill="#334155">• 조건이 맞으면 Equatable 등 합성</text>
+    <text x="90" y="430" font-size="18" font-weight="700" fill="#075985">주의</text>
+    <text x="90" y="465" font-size="17" fill="#334155">내부에 참조 타입을 담으면 그 참조까지</text>
+    <text x="90" y="492" font-size="17" fill="#334155">자동으로 깊게 복사되지는 않는다.</text>
+
+    <rect x="435" y="150" width="330" height="370" rx="18" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="465" y="202" font-size="28" font-weight="700" fill="#92400e">Kotlin class</text>
+    <text x="465" y="245" font-size="20" fill="#0f172a">참조 타입 객체</text>
+    <text x="465" y="286" font-size="18" fill="#334155">• 변수는 같은 객체를 가리킬 수 있음</text>
+    <text x="465" y="324" font-size="18" fill="#334155">• 기본 equals는 참조 비교</text>
+    <text x="465" y="362" font-size="18" fill="#334155">• 데이터용 기능은 직접 작성 가능</text>
+    <text x="465" y="430" font-size="18" font-weight="700" fill="#92400e">질문</text>
+    <text x="465" y="465" font-size="17" fill="#334155">두 변수가 같은 객체를 가리키는가,</text>
+    <text x="465" y="492" font-size="17" fill="#334155">내용이 같은가를 구분한다.</text>
+
+    <rect x="810" y="150" width="330" height="370" rx="18" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="840" y="202" font-size="28" font-weight="700" fill="#5b21b6">Kotlin data class</text>
+    <text x="840" y="245" font-size="20" fill="#0f172a">class + 데이터 편의 기능</text>
+    <text x="840" y="286" font-size="18" fill="#334155">• equals / hashCode / toString</text>
+    <text x="840" y="324" font-size="18" fill="#334155">• componentN / copy 자동 생성</text>
+    <text x="840" y="362" font-size="18" fill="#334155">• 여전히 객체 참조 의미</text>
+    <text x="840" y="430" font-size="18" font-weight="700" fill="#5b21b6">copy의 경계</text>
+    <text x="840" y="465" font-size="17" fill="#334155">중첩된 MutableList 같은 참조는</text>
+    <text x="840" y="492" font-size="17" fill="#334155">공유될 수 있는 얕은 복사다.</text>
+  </g>
+  <line x1="60" y1="565" x2="1140" y2="565" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="60" y="600" font-family="Apple SD Gothic Neo, sans-serif" font-size="18" fill="#334155">핵심: 값/참조 의미 → 자동 생성 기능 → 중첩 참조의 복사 범위를 순서대로 확인한다.</text>
+</svg>

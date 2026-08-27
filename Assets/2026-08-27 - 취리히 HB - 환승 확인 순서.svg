@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 -290 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">취리히 중앙역 환승 때 확인할 세 층위</title>
+  <desc id="desc">취리히 중앙역에서 실시간 열차 정보, 표의 유효 범위, 역 내부 동선을 독립적으로 확인하는 순서를 나타낸 그림.</desc>
+  <rect x="0" y="-290" width="1200" height="1200" fill="#f8fafc"/>
+  <text x="60" y="68" font-family="Apple SD Gothic Neo, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Zürich HB 환승: 열차 · 표 · 역 내부 동선을 한꺼번에 추정하지 않기</text>
+  <text x="60" y="104" font-family="Apple SD Gothic Neo, sans-serif" font-size="18" fill="#475569">12월 실제 이용 전에는 SBB·ZVV의 당일 정보와 현장 안내를 다시 확인한다.</text>
+  <g font-family="Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+    <rect x="80" y="180" width="300" height="250" rx="22" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="230" y="238" font-size="29" font-weight="700" fill="#1e3a8a">1. 열차 정보</text>
+    <text x="230" y="282" font-size="18" fill="#334155">SBB 시간표와 승강장 전광판</text>
+    <text x="230" y="318" font-size="18" fill="#334155">열차 종류 · 목적지 · 경유지</text>
+    <text x="230" y="354" font-size="18" fill="#334155">지연 · 취소 · 대체 연결</text>
+    <path d="M400 305 L470 305" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="450" y="180" width="300" height="250" rx="22" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="600" y="238" font-size="29" font-weight="700" fill="#166534">2. 표의 범위</text>
+    <text x="600" y="282" font-size="18" fill="#334155">ZVV 구역과 유효 시간</text>
+    <text x="600" y="318" font-size="18" fill="#334155">도시 구역 110의 이중 계산</text>
+    <text x="600" y="354" font-size="18" fill="#334155">장거리 표와 별도 판단</text>
+    <path d="M770 305 L840 305" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="820" y="180" width="300" height="250" rx="22" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="970" y="238" font-size="29" font-weight="700" fill="#92400e">3. 역 내부 동선</text>
+    <text x="970" y="282" font-size="18" fill="#334155">승강장 · 통로 · 출구</text>
+    <text x="970" y="318" font-size="18" fill="#334155">역 지도와 현장 표지</text>
+    <text x="970" y="354" font-size="18" fill="#334155">짐 보관은 별도 서비스</text>
+  </g>
+  <rect x="80" y="490" width="1040" height="64" rx="14" fill="#e2e8f0"/>
+  <text x="600" y="532" font-family="Apple SD Gothic Neo, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#1e293b">같은 ‘환승’이라도 시간표의 연결 가능성, 요금 유효성, 걷는 경로는 서로 다른 질문이다.</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+</svg>
