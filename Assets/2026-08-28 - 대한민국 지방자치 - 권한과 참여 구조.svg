@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">대한민국 지방자치의 권한과 주민 참여 구조</title>
+  <desc id="desc">국가, 광역과 기초 지방자치단체, 지방의회와 단체장, 주민 참여의 관계를 개념적으로 나타낸다.</desc>
+  <rect width="1200" height="620" fill="#F8FAFC"/>
+  <text x="60" y="70" fill="#0F172A" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="34" font-weight="700" textLength="1060" lengthAdjust="spacingAndGlyphs">지방자치: 지역 단위, 기관 역할, 주민 참여를 분리해 읽기</text>
+  <rect x="440" y="110" width="320" height="76" rx="15" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/><text x="540" y="157" fill="#1D4ED8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="700">국가 법률·기준</text>
+  <path d="M600 186 V245" stroke="#64748B" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="350" y="250" width="500" height="92" rx="17" fill="#E0F2FE" stroke="#0284C7" stroke-width="3"/><text x="440" y="290" fill="#075985" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="700">광역 지방자치단체</text><text x="464" y="320" fill="#075985" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">특별시·광역시·특별자치시·도·특별자치도</text>
+  <path d="M600 342 V400" stroke="#64748B" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="350" y="405" width="500" height="92" rx="17" fill="#ECFDF5" stroke="#16A34A" stroke-width="3"/><text x="450" y="445" fill="#166534" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="700">기초 지방자치단체</text><text x="486" y="475" fill="#166534" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">시·군·자치구</text>
+  <rect x="60" y="250" width="225" height="125" rx="16" fill="#FFF7ED" stroke="#EA580C" stroke-width="3"/><text x="105" y="295" fill="#C2410C" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="23" font-weight="700">지방의회</text><text x="85" y="327" fill="#9A3412" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">조례·예산 심의·의결</text><text x="85" y="352" fill="#9A3412" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">행정 감시</text>
+  <rect x="915" y="250" width="225" height="125" rx="16" fill="#FFF7ED" stroke="#EA580C" stroke-width="3"/><text x="947" y="295" fill="#C2410C" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="23" font-weight="700">단체장</text><text x="940" y="327" fill="#9A3412" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">대표·행정 집행</text><text x="940" y="352" fill="#9A3412" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">법령·예산 범위</text>
+  <path d="M285 312 H350" stroke="#EA580C" stroke-width="3" marker-end="url(#o)"/><path d="M915 312 H850" stroke="#EA580C" stroke-width="3" marker-end="url(#o)"/>
+  <rect x="60" y="525" width="1080" height="48" rx="12" fill="#F1F5F9"/><text x="95" y="556" fill="#334155" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">주민: 선거 + 주민발안·주민투표·주민소환·주민감사청구 (대상·요건·효력은 제도마다 다름)</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748B"/></marker><marker id="o" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#EA580C"/></marker></defs>
+</svg>

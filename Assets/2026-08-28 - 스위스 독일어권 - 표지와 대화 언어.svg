@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+  <title id="title">스위스 독일어권에서 표지와 대화 언어를 읽는 법</title>
+  <desc id="desc">취리히와 루체른에서 표준 독일어 표지, 스위스 독일어 대화, 영어 보조가 각각 어떤 역할을 하는지 나타낸 개념도다.</desc>
+  <rect width="1200" height="590" fill="#F8FAFC"/>
+  <text x="60" y="72" fill="#1E3A5F" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="34" font-weight="700" textLength="1060" lengthAdjust="spacingAndGlyphs">루체른·취리히: 글·말·보조 언어를 다른 정보로 읽기</text>
+  <text x="60" y="110" fill="#52606D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">목적은 발음 시험이 아니라 목적지·플랫폼·시간을 정확히 확인하는 것이다.</text>
+  <rect x="60" y="170" width="330" height="250" rx="22" fill="#EAF2FF" stroke="#2563EB" stroke-width="3"/>
+  <text x="102" y="222" fill="#1D4ED8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="25" font-weight="700">표준 독일어</text>
+  <text x="102" y="262" fill="#1E3A5F" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="20">역명·전광판·공식 안내</text>
+  <rect x="100" y="296" width="250" height="66" rx="10" fill="#FFFFFF"/><text x="128" y="337" fill="#334155" font-family="Arial, sans-serif" font-size="21">Zürich HB · Luzern</text>
+  <text x="102" y="397" fill="#1D4ED8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">→ 철자·시각·플랫폼 확인</text>
+  <rect x="435" y="170" width="330" height="250" rx="22" fill="#F3ECFF" stroke="#7C3AED" stroke-width="3"/>
+  <text x="477" y="222" fill="#6D28D9" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="25" font-weight="700">스위스 독일어</text>
+  <text x="477" y="262" fill="#4C1D95" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="20">일상 대화·방송에서 만날 수 있음</text>
+  <rect x="475" y="296" width="250" height="66" rx="10" fill="#FFFFFF"/><text x="543" y="337" fill="#4C1D95" font-family="Arial, sans-serif" font-size="24">Grüezi</text>
+  <text x="477" y="397" fill="#6D28D9" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">→ 못 들으면 표지로 재확인</text>
+  <rect x="810" y="170" width="330" height="250" rx="22" fill="#ECFDF5" stroke="#16A34A" stroke-width="3"/>
+  <text x="852" y="222" fill="#166534" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="25" font-weight="700">영어 보조</text>
+  <text x="852" y="262" fill="#166534" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="20">관광·기계·직원과의 대화</text>
+  <rect x="850" y="296" width="250" height="66" rx="10" fill="#FFFFFF"/><text x="898" y="337" fill="#166534" font-family="Arial, sans-serif" font-size="21">English, please</text>
+  <text x="852" y="397" fill="#166534" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">→ 주소·표를 함께 보여 주기</text>
+  <path d="M225 450 H975" stroke="#94A3B8" stroke-width="4" marker-end="url(#a)"/>
+  <text x="330" y="493" fill="#334155" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="21" font-weight="700" textLength="810" lengthAdjust="spacingAndGlyphs">여행의 기본 순서: 표지 확인 → 시간표 확인 → 필요하면 짧게 도움 요청</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#94A3B8"/></marker></defs>
+</svg>

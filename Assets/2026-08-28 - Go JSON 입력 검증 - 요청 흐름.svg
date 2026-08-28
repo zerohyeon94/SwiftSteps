@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Go JSON 요청과 입력 검증 흐름</title>
+  <desc id="desc">클라이언트 JSON 요청이 decoder와 필수값 검증을 거쳐 오류는 400으로, 정상 입력은 성공 응답으로 가는 흐름이다.</desc>
+  <rect width="1200" height="600" fill="#F8FAFC"/>
+  <text x="60" y="72" fill="#102A43" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="34" font-weight="700" textLength="1060" lengthAdjust="spacingAndGlyphs">Go API: JSON 문법과 입력 규칙은 다른 단계다</text>
+  <text x="60" y="110" fill="#52606D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">Day 3 범위: decoder → validate → HTTP 응답. service·repository는 아직 호출하지 않는다.</text>
+  <rect x="60" y="190" width="190" height="100" rx="16" fill="#D9F4FF" stroke="#1597BB" stroke-width="3"/>
+  <text x="100" y="232" fill="#075985" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="22" font-weight="700">Client</text><text x="88" y="264" fill="#075985" font-family="Arial, sans-serif" font-size="18">POST + JSON</text>
+  <path d="M250 240 H330" stroke="#52606D" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="330" y="190" width="220" height="100" rx="16" fill="#E9E1FF" stroke="#7C3AED" stroke-width="3"/>
+  <text x="374" y="232" fill="#5B21B6" font-family="Arial, sans-serif" font-size="23" font-weight="700">Decoder</text><text x="355" y="264" fill="#5B21B6" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">JSON 문법·형태 읽기</text>
+  <path d="M550 240 H630" stroke="#52606D" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="630" y="190" width="220" height="100" rx="16" fill="#E6F8EC" stroke="#16A34A" stroke-width="3"/>
+  <text x="676" y="232" fill="#166534" font-family="Arial, sans-serif" font-size="23" font-weight="700">Validate</text><text x="654" y="264" fill="#166534" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">필수값·형식 확인</text>
+  <path d="M850 240 H930" stroke="#52606D" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="930" y="190" width="210" height="100" rx="16" fill="#EAF2FF" stroke="#2563EB" stroke-width="3"/>
+  <text x="976" y="232" fill="#1D4ED8" font-family="Arial, sans-serif" font-size="23" font-weight="700">201 JSON</text><text x="958" y="264" fill="#1D4ED8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">정상 응답 예시</text>
+  <path d="M440 290 V370 H250" stroke="#DC2626" stroke-width="4" marker-end="url(#aRed)"/>
+  <rect x="60" y="390" width="300" height="108" rx="16" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+  <text x="93" y="435" fill="#B91C1C" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="22" font-weight="700">문법 오류</text><text x="93" y="469" fill="#B91C1C" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">예: 닫히지 않은 JSON → 400</text>
+  <path d="M740 290 V370 H550" stroke="#DC2626" stroke-width="4" marker-end="url(#aRed)"/>
+  <rect x="420" y="390" width="300" height="108" rx="16" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+  <text x="453" y="435" fill="#B91C1C" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="22" font-weight="700">입력 규칙 오류</text><text x="453" y="469" fill="#B91C1C" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">예: title 비어 있음 → 400</text>
+  <rect x="805" y="390" width="335" height="108" rx="16" fill="#FFF7E6" stroke="#F59E0B" stroke-width="3"/>
+  <text x="838" y="435" fill="#92400E" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="22" font-weight="700">오늘의 경계</text><text x="838" y="469" fill="#92400E" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">오류면 DB·repository로 보내지 않음</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#52606D"/></marker><marker id="aRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#DC2626"/></marker></defs>
+</svg>

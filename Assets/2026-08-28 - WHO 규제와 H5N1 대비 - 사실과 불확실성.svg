@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">WHO 규제 협력센터와 H5N1 대비 뉴스의 정보 층위</title>
+  <desc id="desc">확인된 사실, 기관의 평가와 권고, 아직 미확정인 결과를 구분한 뉴스 이해 도식이다.</desc>
+  <rect width="1200" height="620" fill="#F8FAFC"/>
+  <text x="60" y="70" fill="#0F172A" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="34" font-weight="700" textLength="1060" lengthAdjust="spacingAndGlyphs">공중보건 뉴스: 발표·권고·미래 결과를 분리하기</text>
+  <text x="60" y="108" fill="#52606D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">기준일: 2026-08-27 WHO·뉴질랜드 정부 발표</text>
+  <rect x="60" y="160" width="340" height="340" rx="22" fill="#ECFDF5" stroke="#16A34A" stroke-width="3"/>
+  <text x="95" y="212" fill="#166534" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="25" font-weight="700">확인된 사실</text>
+  <text x="95" y="258" fill="#14532D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• 한국 GHC의 WHO 협력센터 지정</text>
+  <text x="95" y="296" fill="#14532D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• 8/25~27 감시 회의 개최</text>
+  <text x="95" y="334" fill="#14532D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• NZ 야생조류 H5N1 검출 발표</text>
+  <text x="95" y="416" fill="#166534" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18" font-weight="700">발표 주체·날짜·검출을 확인</text>
+  <rect x="430" y="160" width="340" height="340" rx="22" fill="#FFF7E6" stroke="#F59E0B" stroke-width="3"/>
+  <text x="465" y="212" fill="#92400E" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="25" font-weight="700">기관의 평가·권고</text>
+  <text x="465" y="258" fill="#78350F" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• One Health 조정 강화</text>
+  <text x="465" y="296" fill="#78350F" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• 조기 탐지·자료 공유·훈련</text>
+  <text x="465" y="334" fill="#78350F" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• 감시 자료를 대응으로 연결</text>
+  <text x="465" y="416" fill="#92400E" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18" font-weight="700">권고 ≠ 이미 발생한 결과</text>
+  <rect x="800" y="160" width="340" height="340" rx="22" fill="#FEF2F2" stroke="#DC2626" stroke-width="3"/>
+  <text x="835" y="212" fill="#B91C1C" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="25" font-weight="700">아직 미확정</text>
+  <text x="835" y="258" fill="#7F1D1D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• 사람 감염·사람 간 전파 결과</text>
+  <text x="835" y="296" fill="#7F1D1D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• 향후 지역 확산 범위</text>
+  <text x="835" y="334" fill="#7F1D1D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="19">• 교육·정책의 장기 성과</text>
+  <text x="835" y="416" fill="#B91C1C" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18" font-weight="700">예측이나 확정처럼 말하지 않기</text>
+  <rect x="60" y="540" width="1080" height="42" rx="10" fill="#E0E7FF"/><text x="90" y="568" fill="#3730A3" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">뉴스 읽기 질문: 누가 무엇을 발표했나? 무엇을 권고했나? 어떤 결과는 아직 근거가 부족한가?</text>
+</svg>
