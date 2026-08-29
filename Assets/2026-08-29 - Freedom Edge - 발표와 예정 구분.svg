@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Freedom Edge 발표와 예정 구분 타임라인</title>
+  <desc id="desc">2023년 협력 구상, 2026년 8월 28일 발표, 9월 7일부터 11일까지 예정된 훈련을 구분한다.</desc>
+  <rect width="1200" height="600" fill="#F8FAFC"/>
+  <text x="600" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#0F172A">Freedom Edge: 발표된 사실과 예정된 일정을 분리하기</text>
+  <line x1="150" y1="310" x2="1050" y2="310" stroke="#64748B" stroke-width="6"/>
+  <circle cx="240" cy="310" r="25" fill="#2563EB"/>
+  <circle cx="600" cy="310" r="25" fill="#059669"/>
+  <circle cx="960" cy="310" r="25" fill="#F97316"/>
+  <rect x="95" y="130" width="290" height="125" rx="18" fill="#DBEAFE"/>
+  <text x="240" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1E3A8A">2023년</text>
+  <text x="240" y="213" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1E3A8A">캠프 데이비드 뒤</text>
+  <text x="240" y="239" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1E3A8A">협력 훈련 구상</text>
+  <rect x="455" y="130" width="290" height="125" rx="18" fill="#D1FAE5"/>
+  <text x="600" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#065F46">2026-08-28</text>
+  <text x="600" y="213" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#065F46">합참: 일정·장소·목적</text>
+  <text x="600" y="239" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#065F46">공식 발표</text>
+  <rect x="815" y="130" width="290" height="125" rx="18" fill="#FFEDD5"/>
+  <text x="960" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#9A3412">2026-09-07~11</text>
+  <text x="960" y="213" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9A3412">제주 동·남방 공해</text>
+  <text x="960" y="239" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9A3412">훈련 예정</text>
+  <rect x="250" y="403" width="700" height="75" rx="16" fill="#FEE2E2" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="600" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#991B1B">아직 확인되지 않은 것</text>
+  <text x="600" y="464" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#991B1B">실제 실시 내용 · 훈련 결과 · 이후 반응</text>
+  <text x="600" y="548" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#64748B">기준: 2026-08-28 공개 발표 · 일정은 계획이며 결과가 아님</text>
+</svg>

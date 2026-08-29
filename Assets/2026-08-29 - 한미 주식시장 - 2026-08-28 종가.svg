@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 8월 28일 한미 주식시장 일간 등락률</title>
+  <desc id="desc">코스피, S&amp;P 500, 나스닥, 다우의 일간 등락률 막대그래프.</desc>
+  <rect width="1200" height="650" fill="#F8FAFC"/>
+  <text x="600" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="#0F172A">2026-08-28 한·미 주식시장: 일간 등락률</text>
+  <text x="600" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#475569">단위: % · 한국 정규장 및 미국 정규장 마감 기준</text>
+  <line x1="160" y1="250" x2="1080" y2="250" stroke="#64748B" stroke-width="3"/>
+  <line x1="160" y1="140" x2="160" y2="505" stroke="#94A3B8" stroke-width="3"/>
+  <line x1="160" y1="360" x2="1080" y2="360" stroke="#334155" stroke-width="4"/>
+  <text x="142" y="256" text-anchor="end" font-family="Arial, sans-serif" font-size="17" fill="#475569">+1.0</text>
+  <text x="142" y="366" text-anchor="end" font-family="Arial, sans-serif" font-size="17" fill="#475569">0.0</text>
+  <text x="142" y="476" text-anchor="end" font-family="Arial, sans-serif" font-size="17" fill="#475569">-1.0</text>
+  <rect x="255" y="360" width="125" height="197" rx="10" fill="#DC2626"/>
+  <text x="317" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#B91C1C">-1.79%</text>
+  <text x="317" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">코스피</text>
+  <rect x="475" y="360" width="125" height="22" rx="10" fill="#F87171"/>
+  <text x="537" y="409" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#B91C1C">-0.2%</text>
+  <text x="537" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">S&amp;P 500</text>
+  <rect x="695" y="360" width="125" height="55" rx="10" fill="#EF4444"/>
+  <text x="757" y="442" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#B91C1C">-0.5%</text>
+  <text x="757" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">나스닥</text>
+  <rect x="915" y="360" width="125" height="4" rx="2" fill="#FB7185"/>
+  <text x="977" y="391" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#B91C1C">거의 보합</text>
+  <text x="977" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">다우</text>
+</svg>

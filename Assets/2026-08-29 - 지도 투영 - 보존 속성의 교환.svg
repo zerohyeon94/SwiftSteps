@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+  <title id="title">지도 투영에서 보존 속성의 교환</title>
+  <desc id="desc">구면을 평면으로 옮길 때 면적, 모양, 거리, 방향을 모두 완벽하게 보존할 수 없음을 보여 주는 개념도.</desc>
+  <rect width="1200" height="660" fill="#F8FAFC"/>
+  <text x="600" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="33" font-weight="700" fill="#0F172A">구면을 평면으로: 무엇을 보존할까?</text>
+  <circle cx="265" cy="330" r="154" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+  <path d="M112 330 H418 M265 176 V484 M138 255 C210 293 320 293 392 255 M138 405 C210 367 320 367 392 405" fill="none" stroke="#60A5FA" stroke-width="3"/>
+  <text x="265" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#1E3A8A">구면의 지구</text>
+  <path d="M445 330 H565" fill="none" stroke="#475569" stroke-width="5"/>
+  <path d="M548 313 L575 330 L548 347" fill="none" stroke="#475569" stroke-width="5"/>
+  <rect x="585" y="156" width="530" height="348" rx="22" fill="#FFFFFF" stroke="#94A3B8" stroke-width="3"/>
+  <text x="850" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#334155">평면 지도: 목적에 따른 선택</text>
+  <rect x="625" y="246" width="190" height="82" rx="14" fill="#FEF3C7"/>
+  <text x="720" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#92400E">면적</text>
+  <text x="720" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#92400E">크기 비교</text>
+  <rect x="885" y="246" width="190" height="82" rx="14" fill="#E0E7FF"/>
+  <text x="980" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#3730A3">방향</text>
+  <text x="980" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#3730A3">항로 관계</text>
+  <rect x="625" y="363" width="190" height="82" rx="14" fill="#DCFCE7"/>
+  <text x="720" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#166534">거리</text>
+  <text x="720" y="426" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#166534">기준선·지점</text>
+  <rect x="885" y="363" width="190" height="82" rx="14" fill="#FCE7F3"/>
+  <text x="980" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#9D174D">모양</text>
+  <text x="980" y="426" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9D174D">윤곽·각도</text>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#B91C1C">네 성질을 전 지구에서 동시에 완벽하게 보존할 수는 없다.</text>
+  <text x="600" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748B">실제 지도는 목적에 맞는 투영법을 택하고, 그 밖의 성질에는 왜곡을 허용한다.</text>
+</svg>

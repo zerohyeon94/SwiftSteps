@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">프라하 비엔나 국제 열차의 운임, 좌석, 시간표 구분</title>
+  <desc id="desc">운임 조건, 좌석 예약, 여행일 시간표를 따로 확인하는 개념 흐름도.</desc>
+  <rect width="1200" height="620" fill="#F8FAFC"/>
+  <text x="600" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#0F172A">프라하 ↔ 비엔나: 세 정보를 분리해 읽기</text>
+  <rect x="75" y="166" width="300" height="260" rx="22" fill="#EFF6FF" stroke="#60A5FA" stroke-width="3"/>
+  <text x="225" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#1E3A8A">1. 운임·승차권</text>
+  <text x="225" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#334155">어느 열차를 탈 수 있는가</text>
+  <text x="225" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">할인 운임에는 특정 열차</text>
+  <text x="225" y="351" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">조건이 붙을 수 있음</text>
+  <rect x="450" y="166" width="300" height="260" rx="22" fill="#ECFDF5" stroke="#34D399" stroke-width="3"/>
+  <text x="600" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#065F46">2. 좌석 예약</text>
+  <text x="600" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#334155">어디에 앉는가</text>
+  <text x="600" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">운임 포함 여부·필수 여부는</text>
+  <text x="600" y="351" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">열차와 조건에 따라 다름</text>
+  <rect x="825" y="166" width="300" height="260" rx="22" fill="#FFF7ED" stroke="#FB923C" stroke-width="3"/>
+  <text x="975" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#9A3412">3. 여행일 시간표</text>
+  <text x="975" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#334155">그날 실제 예정 운행</text>
+  <text x="975" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">2026-12-13 새 시간표 시작 뒤</text>
+  <text x="975" y="351" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">12월 18일 일정 재확인</text>
+  <path d="M375 296 H430 M750 296 H805" fill="none" stroke="#64748B" stroke-width="5"/>
+  <path d="M414 280 L434 296 L414 312 M789 280 L809 296 L789 312" fill="none" stroke="#64748B" stroke-width="5"/>
+  <rect x="165" y="488" width="870" height="60" rx="15" fill="#E2E8F0"/>
+  <text x="600" y="526" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#334155">운임 조건 · 좌석 · 시간표는 서로 대체하지 않는 별도 확인 대상</text>
+</svg>
