@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="610" viewBox="0 0 900 610" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 8월 30일 주요 뉴스의 정보 상태 구분</title>
+  <desc id="desc">연준 의장의 잭슨홀 연설과 아이슬란드 EU 가입 협상 재개 국민투표를 확인된 사실, 당사자 발언, 미확정 결과로 나눈 도표</desc>
+  <rect width="900" height="610" fill="#f7f8fb"/>
+  <g transform="scale(0.75 1)">
+  <text x="64" y="63" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700" fill="#212938">뉴스를 읽는 세 층위: 사실 · 발언 · 미확정 결과</text>
+  <text x="64" y="94" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="16" fill="#536174">2026-08-30 KST 확인 시점 — 사건 자체와 해석·결과를 섞지 않는다</text>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif">
+    <rect x="64" y="135" width="1072" height="92" rx="10" fill="#e1edf5"/>
+    <text x="90" y="170" font-size="21" font-weight="700" fill="#234b62">1. 확인된 사실</text>
+    <text x="302" y="168" font-size="17" fill="#234b62">8월 28일 연준 의장의 잭슨홀 연설 공개 · 8월 29일 아이슬란드의 국민투표 실시</text>
+    <text x="302" y="197" font-size="15" fill="#355d73">공식 연설문과 신뢰할 수 있는 현장 보도로 확인한 사건의 범위</text>
+    <rect x="64" y="251" width="1072" height="122" rx="10" fill="#fff0d6"/>
+    <text x="90" y="287" font-size="21" font-weight="700" fill="#805323">2. 당사자 발언·평가</text>
+    <text x="342" y="283" font-size="17" fill="#805323">연준 의장: 물가 목표 달성을 위한 정책 원칙을 제시</text>
+    <text x="342" y="312" font-size="17" fill="#805323">찬반 진영: EU 협상이 안정성 또는 어업권에 미칠 영향에 대해 서로 다른 주장</text>
+    <text x="342" y="342" font-size="15" fill="#9a6b34">발언·예측은 공식 결정이나 실제 결과와 동의어가 아니다</text>
+    <rect x="64" y="397" width="1072" height="122" rx="10" fill="#eee5f3"/>
+    <text x="90" y="434" font-size="21" font-weight="700" fill="#61406f">3. 아직 미확정</text>
+    <text x="315" y="430" font-size="17" fill="#61406f">향후 FOMC의 금리 결정·시점·폭 / 아이슬란드 개표 결과와 실제 가입 협상·합의</text>
+    <text x="315" y="460" font-size="15" fill="#765585">후속 공식 발표이 확인되기 전에는 예측을 사실처럼 다루지 않는다</text>
+  </g>
+  <path d="M600 227 L600 246" stroke="#78869a" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M600 373 L600 392" stroke="#78869a" stroke-width="4" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#78869a"/></marker></defs>
+  <text x="64" y="565" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="15" fill="#536174">핵심: 연설·투표의 발생은 확인하되, 정책·협상 결과는 별도 증거가 나올 때까지 보류한다.</text>
+  </g>
+</svg>

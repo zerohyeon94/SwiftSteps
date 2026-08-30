@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">비엔나 링슈트라세: 성벽에서 도시축으로</title>
+  <desc id="desc">중세 성벽, 철거 뒤 조성된 링슈트라세, 그리고 공공 건물과 공원이 이어지는 19세기 비엔나의 도시 구조를 보여 주는 개념도</desc>
+  <rect width="900" height="560" fill="#f8f4eb"/>
+  <g transform="scale(0.75 1)">
+  <text x="70" y="70" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700" fill="#29251f">비엔나 링슈트라세: 성벽에서 도시축으로</text>
+  <text x="70" y="104" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" fill="#5f574b">실제 지도·거리 비율이 아닌, 역사적 공간 관계를 읽는 개념도</text>
+  <line x1="160" y1="300" x2="1040" y2="300" stroke="#b77b35" stroke-width="36" stroke-linecap="round"/>
+  <line x1="160" y1="300" x2="1040" y2="300" stroke="#f6d493" stroke-width="22" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <path d="M300 245 C320 165 430 155 480 215 C515 157 650 168 680 240" fill="none" stroke="#6f7170" stroke-width="13" stroke-linecap="round" stroke-dasharray="14 13"/>
+  <text x="420" y="178" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="19" font-weight="700" fill="#41403e">이전의 성벽·방어선</text>
+  <text x="595" y="352" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="19" font-weight="700" fill="#573b1d">철거 뒤 조성된 링슈트라세</text>
+  <path d="M298 228 L320 260" stroke="#6f7170" stroke-width="3"/>
+  <path d="M750 274 L750 210" stroke="#4d6570" stroke-width="3"/>
+  <rect x="685" y="145" width="130" height="64" rx="7" fill="#dce9e2" stroke="#4d6570" stroke-width="3"/>
+  <text x="750" y="174" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" font-weight="700" fill="#2e4a42">공원·광장</text>
+  <text x="750" y="196" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14" fill="#2e4a42">열린 공간</text>
+  <g fill="#d7e2ee" stroke="#42627a" stroke-width="3">
+    <rect x="170" y="372" width="135" height="72" rx="6"/>
+    <rect x="388" y="372" width="135" height="72" rx="6"/>
+    <rect x="610" y="372" width="135" height="72" rx="6"/>
+    <rect x="832" y="372" width="135" height="72" rx="6"/>
+  </g>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif" text-anchor="middle" fill="#263d4d">
+    <text x="237" y="402" font-size="17" font-weight="700">국가 오페라</text>
+    <text x="237" y="425" font-size="14">문화의 축</text>
+    <text x="455" y="402" font-size="17" font-weight="700">왕궁·박물관</text>
+    <text x="455" y="425" font-size="14">제국의 축</text>
+    <text x="677" y="402" font-size="17" font-weight="700">의회·시청</text>
+    <text x="677" y="425" font-size="14">시민 제도의 축</text>
+    <text x="899" y="402" font-size="17" font-weight="700">대학·극장</text>
+    <text x="899" y="425" font-size="14">지식·공연의 축</text>
+  </g>
+  <g stroke="#42627a" stroke-width="3">
+    <line x1="237" y1="372" x2="237" y2="324"/>
+    <line x1="455" y1="372" x2="455" y2="324"/>
+    <line x1="677" y1="372" x2="677" y2="324"/>
+    <line x1="899" y1="372" x2="899" y2="324"/>
+  </g>
+  <text x="70" y="510" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="16" fill="#5f574b">읽기 순서: 성벽의 자리 → 링을 따라 이어지는 공공 건물 → 각 건물이 보여 주는 19세기 역할</text>
+  </g>
+</svg>

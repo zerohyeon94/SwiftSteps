@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 8월 28일 한국과 미국 주요 주가지수 등락률</title>
+  <desc id="desc">코스피, 코스닥, S&amp;P 500, 나스닥 종합의 2026년 8월 28일 전 거래일 대비 등락률을 비교한 막대 그래프</desc>
+  <rect width="900" height="600" fill="#fbfbfc"/>
+  <g transform="scale(0.75 1)">
+  <text x="72" y="62" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700" fill="#252a34">2026-08-28 주요 주가지수 등락률</text>
+  <text x="72" y="94" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="16" fill="#596273">전 거래일 대비 · 한국 정규장과 미국 정규장 마감 기준 · 단위: %</text>
+  <g stroke="#d7dbe1" stroke-width="2">
+    <line x1="150" y1="180" x2="1080" y2="180"/>
+    <line x1="150" y1="270" x2="1080" y2="270"/>
+    <line x1="150" y1="360" x2="1080" y2="360"/>
+    <line x1="150" y1="450" x2="1080" y2="450"/>
+  </g>
+  <line x1="150" y1="360" x2="1080" y2="360" stroke="#323946" stroke-width="3"/>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif" fill="#596273" font-size="15" text-anchor="end">
+    <text x="135" y="185">+2</text><text x="135" y="275">+1</text><text x="135" y="365">0</text><text x="135" y="455">−1</text><text x="135" y="545">−2</text>
+  </g>
+  <g>
+    <rect x="240" y="360" width="120" height="161" rx="4" fill="#bf5b56"/>
+    <rect x="455" y="352" width="120" height="8" rx="4" fill="#3e9b78"/>
+    <rect x="670" y="360" width="120" height="23" rx="4" fill="#bf5b56"/>
+    <rect x="885" y="360" width="120" height="47" rx="4" fill="#bf5b56"/>
+  </g>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif" text-anchor="middle">
+    <text x="300" y="548" font-size="18" font-weight="700" fill="#252a34">코스피</text><text x="300" y="337" font-size="19" font-weight="700" fill="#9f3e3b">−1.79%</text><text x="300" y="570" font-size="14" fill="#596273">6,788.88</text>
+    <text x="515" y="548" font-size="18" font-weight="700" fill="#252a34">코스닥</text><text x="515" y="334" font-size="19" font-weight="700" fill="#287b5d">+0.09%</text><text x="515" y="570" font-size="14" fill="#596273">838.41</text>
+    <text x="730" y="548" font-size="18" font-weight="700" fill="#252a34">S&amp;P 500</text><text x="730" y="403" font-size="19" font-weight="700" fill="#9f3e3b">−0.25%</text><text x="730" y="570" font-size="14" fill="#596273">7,711.76</text>
+    <text x="945" y="548" font-size="18" font-weight="700" fill="#252a34">나스닥 종합</text><text x="945" y="427" font-size="19" font-weight="700" fill="#9f3e3b">−0.52%</text><text x="945" y="570" font-size="14" fill="#596273">26,402.42</text>
+  </g>
+  </g>
+</svg>
