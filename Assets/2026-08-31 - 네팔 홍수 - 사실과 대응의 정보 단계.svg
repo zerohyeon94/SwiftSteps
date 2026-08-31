@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">네팔 홍수 보도에서 사실과 대응, 미확정 정보를 구분하는 흐름</title>
+  <desc id="desc">8월 26일 홍수부터 8월 30일 WHO 긴급기금 지원과 이후 확인이 필요한 내용을 시간순으로 정리한 정보 상태 다이어그램</desc>
+  <rect width="1200" height="675" fill="#F4F7FA"/>
+  <text x="60" y="68" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#1F3446">네팔 홍수: 사건·대응·미확정 결과를 분리해 읽기</text>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="17" fill="#56616A">2026-08-31 KST 작성 기준 · 인명 피해와 원인 조사는 계속 변할 수 있음</text>
+  <rect x="60" y="155" width="790" height="112" rx="18" fill="#F8E4E1" stroke="#B8574D" stroke-width="2"/>
+  <circle cx="104" cy="211" r="25" fill="#B8574D"/><text x="96" y="220" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="150" y="197" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#8B3933">확인된 사건 · 8월 26일 Bhote Koshi 홍수</text>
+  <text x="150" y="231" font-family="Arial, sans-serif" font-size="18" fill="#27343E">네팔 정부의 공식 구호 호소: 재난 발생과 공적 대응 필요를 확인</text>
+  <text x="150" y="256" font-family="Arial, sans-serif" font-size="15" fill="#56616A">이 단계는 최종 피해 집계나 원인을 확정하지 않는다.</text>
+  <path d="M455 277 V292" stroke="#5D879F" stroke-width="5" fill="none"/><path d="M443 283 L455 300 L467 283" stroke="#5D879F" stroke-width="5" fill="none"/>
+  <rect x="60" y="310" width="790" height="112" rx="18" fill="#E3F0F7" stroke="#2F7396" stroke-width="2"/>
+  <circle cx="104" cy="366" r="25" fill="#2F7396"/><text x="96" y="375" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="150" y="352" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1E5C7C">확인된 대응 · WHO 긴급기금 US$150,000</text>
+  <text x="150" y="386" font-family="Arial, sans-serif" font-size="18" fill="#27343E">보건 대응·의료 물자 지원 조치이며, 복구 완료나 실제 건강 결과와는 다름</text>
+  <text x="150" y="411" font-family="Arial, sans-serif" font-size="15" fill="#56616A">의료 키트의 계획 용량은 실제로 보호받은 인원과 같은 수치가 아니다.</text>
+  <path d="M455 432 V447" stroke="#5D879F" stroke-width="5" fill="none"/><path d="M443 438 L455 455 L467 438" stroke="#5D879F" stroke-width="5" fill="none"/>
+  <rect x="60" y="465" width="790" height="105" rx="18" fill="#F7EDDA" stroke="#C78A28" stroke-width="2"/>
+  <circle cx="104" cy="517" r="25" fill="#C78A28"/><text x="96" y="526" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="150" y="504" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#8B5A12">계속 확인할 것</text>
+  <text x="150" y="538" font-family="Arial, sans-serif" font-size="18" fill="#27343E">최종 피해·실종자 확인, 수위·2차 위험, 정확한 원인과 지원 결과</text>
+  <text x="60" y="630" font-family="Arial, sans-serif" font-size="14" fill="#56616A">출처: 네팔 내무부(MoHA), WHO Nepal, AP (2026-08-26~30). 현장 재현이 아닌 정보 상태 도식.</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 8월 28일 한국과 미국 주요 지수의 전 거래일 대비 등락률</title>
+  <desc id="desc">코스피, 코스닥, S&amp;P 500, 나스닥 종합의 전 거래일 대비 비율을 표시하고 8월 29일과 30일은 새 정규장 종가가 없었다는 기준을 알려 주는 차트</desc>
+  <rect width="1200" height="675" fill="#F7F8FA"/>
+  <text x="60" y="68" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#202B38">직전 거래일 등락률 · 2026-08-28 정규장 종가</text>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="17" fill="#586572">8월 31일 KST 아침 기준 · 8월 29~30일은 새 한국·미국 현물시장 종가 없음</text>
+  <text x="60" y="145" font-family="Arial, sans-serif" font-size="16" fill="#586572">비교 단위: 전 거래일 대비 등락률. 환율·국채수익률은 단위가 달라 차트에서 제외.</text>
+  <line x1="130" y1="390" x2="760" y2="390" stroke="#41505E" stroke-width="2"/><line x1="130" y1="225" x2="760" y2="225" stroke="#D5DCE3" stroke-width="2" stroke-dasharray="8 8"/><line x1="130" y1="555" x2="760" y2="555" stroke="#D5DCE3" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="70" y="231" font-family="Arial, sans-serif" font-size="18" fill="#586572">+1%</text><text x="76" y="396" font-family="Arial, sans-serif" font-size="18" fill="#586572">0%</text><text x="66" y="561" font-family="Arial, sans-serif" font-size="18" fill="#586572">−1%</text>
+  <rect x="155" y="390" width="70" height="205" rx="9" fill="#B9534C"/><text x="145" y="635" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#26333E">코스피</text><text x="145" y="430" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#8E322D">−1.79%</text>
+  <rect x="300" y="381" width="70" height="9" rx="5" fill="#3A8C68"/><text x="290" y="635" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#26333E">코스닥</text><text x="290" y="355" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#2A6C50">+0.09%</text>
+  <rect x="445" y="390" width="70" height="29" rx="9" fill="#B9534C"/><text x="420" y="635" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#26333E">S&amp;P 500</text><text x="435" y="455" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#8E322D">−0.25%</text>
+  <rect x="590" y="390" width="70" height="60" rx="9" fill="#B9534C"/><text x="585" y="635" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#26333E">나스닥</text><text x="580" y="485" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#8E322D">−0.52%</text>
+</svg>

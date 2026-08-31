@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">호엔잘츠부르크 요새 방문에서 이동 수단과 관람 시간을 구분하는 흐름</title>
+  <desc id="desc">12월 2026 기준 푸니쿨라, 요새 실내, 도보 경로의 운영 시간과 확인 순서를 보여 주는 개념도</desc>
+  <rect width="1200" height="675" fill="#F7F2E8"/>
+  <text x="60" y="68" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#23303B">잘츠부르크 요새: 이동과 관람 시간을 따로 확인하기</text>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="17" fill="#56616A">2026년 12월 공식 안내 기준 · 단기 변경은 방문 직전에 다시 확인</text>
+  <rect x="60" y="145" width="790" height="115" rx="18" fill="#E9F0F6" stroke="#7591A8" stroke-width="2"/>
+  <circle cx="104" cy="202" r="25" fill="#2F6690"/><text x="96" y="211" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#FFFFFF">1</text>
+  <text x="150" y="188" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1E4966">푸니쿨라 · FestungsBahn</text>
+  <text x="150" y="222" font-family="Arial, sans-serif" font-size="18" fill="#23303B">12월 09:00–20:30 · 12월 24일 09:00–17:00 · 약 10분 간격, 약 54초 이동</text>
+  <text x="150" y="247" font-family="Arial, sans-serif" font-size="15" fill="#56616A">운행 종료는 요새 실내 관람 종료와 같지 않다.</text>
+  <path d="M455 270 V292" stroke="#B06C3A" stroke-width="5" fill="none"/><path d="M443 283 L455 300 L467 283" stroke="#B06C3A" stroke-width="5" fill="none"/>
+  <rect x="60" y="310" width="790" height="115" rx="18" fill="#F9E7D8" stroke="#C38452" stroke-width="2"/>
+  <circle cx="104" cy="367" r="25" fill="#B06C3A"/><text x="96" y="376" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#FFFFFF">2</text>
+  <text x="150" y="353" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#8D4D21">요새 실내 · Fortress Hohensalzburg</text>
+  <text x="150" y="387" font-family="Arial, sans-serif" font-size="18" fill="#23303B">10–12월 09:30–17:00 · 12월 24일 실내 09:30–14:00 · Advent 주말은 18:00 안내</text>
+  <text x="150" y="412" font-family="Arial, sans-serif" font-size="15" fill="#56616A">입장 마감·특별 행사·실내 접근 조건을 해당 날짜에 확인한다.</text>
+  <path d="M455 435 V457" stroke="#B06C3A" stroke-width="5" fill="none"/><path d="M443 448 L455 465 L467 448" stroke="#B06C3A" stroke-width="5" fill="none"/>
+  <rect x="60" y="475" width="790" height="105" rx="18" fill="#E6F0E4" stroke="#70936D" stroke-width="2"/>
+  <circle cx="104" cy="527" r="25" fill="#4C8649"/><text x="96" y="536" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#FFFFFF">3</text>
+  <text x="150" y="514" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#356733">도보 대안</text>
+  <text x="150" y="548" font-family="Arial, sans-serif" font-size="18" fill="#23303B">약 20분 오르막 · 겨울 노면·일몰·신발 상태는 푸니쿨라 시간표와 별도 판단</text>
+  <text x="60" y="630" font-family="Arial, sans-serif" font-size="14" fill="#56616A">방문 순서: 날짜 확인 → 실내 종료 확인 → 푸니쿨라 운행 확인 → 도보 대안 판단</text>
+</svg>
