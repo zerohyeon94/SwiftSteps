@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Go API handler service repository 책임 분리</title>
+  <desc id="desc">HTTP 요청이 handler, service, repository를 지나 데이터 저장소에 도달하고, 각 계층이 다른 책임을 갖는 구조도.</desc>
+  <rect width="1400" height="760" fill="#0B0F14"/>
+  <text x="60" y="74" fill="#F1F5F9" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="27" font-weight="700">Go API의 계층은 호출 순서가 아니라 책임의 경계다</text>
+  <text x="60" y="104" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="15">handler는 HTTP, service는 업무 규칙, repository는 저장소 접근을 맡아 서로의 세부사항을 줄인다.</text>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif">
+    <rect x="70" y="220" width="240" height="255" rx="22" fill="#152533" stroke="#38BDF8" stroke-width="2"/>
+    <text x="190" y="280" text-anchor="middle" fill="#7DD3FC" font-size="26" font-weight="700">handler</text>
+    <text x="190" y="325" text-anchor="middle" fill="#E5E7EB" font-size="20">decode JSON</text>
+    <text x="190" y="360" text-anchor="middle" fill="#E5E7EB" font-size="20">HTTP 상태·응답</text>
+    <text x="190" y="395" text-anchor="middle" fill="#94A3B8" font-size="18">요청 형식의 경계</text>
+    <rect x="405" y="220" width="240" height="255" rx="22" fill="#20233C" stroke="#A78BFA" stroke-width="2"/>
+    <text x="525" y="280" text-anchor="middle" fill="#C4B5FD" font-size="26" font-weight="700">service</text>
+    <text x="525" y="325" text-anchor="middle" fill="#E5E7EB" font-size="20">업무 규칙</text>
+    <text x="525" y="360" text-anchor="middle" fill="#E5E7EB" font-size="20">유스케이스 조합</text>
+    <text x="525" y="395" text-anchor="middle" fill="#94A3B8" font-size="18">도메인 판단의 경계</text>
+    <rect x="740" y="220" width="240" height="255" rx="22" fill="#263023" stroke="#4ADE80" stroke-width="2"/>
+    <text x="860" y="280" text-anchor="middle" fill="#86EFAC" font-size="26" font-weight="700">repository</text>
+    <text x="860" y="325" text-anchor="middle" fill="#E5E7EB" font-size="20">SQL·driver 호출</text>
+    <text x="860" y="360" text-anchor="middle" fill="#E5E7EB" font-size="20">저장·조회 변환</text>
+    <text x="860" y="395" text-anchor="middle" fill="#94A3B8" font-size="18">데이터 접근의 경계</text>
+    <rect x="1075" y="220" width="240" height="255" rx="22" fill="#36251B" stroke="#FB923C" stroke-width="2"/>
+    <text x="1195" y="280" text-anchor="middle" fill="#FDBA74" font-size="26" font-weight="700">PostgreSQL</text>
+    <text x="1195" y="330" text-anchor="middle" fill="#E5E7EB" font-size="20">테이블·제약조건</text>
+    <text x="1195" y="365" text-anchor="middle" fill="#94A3B8" font-size="18">영속 데이터</text>
+  </g>
+  <g stroke="#64748B" stroke-width="4" fill="none"><path d="M310 347H390"/><path d="M645 347H725"/><path d="M980 347H1060"/></g>
+  <g fill="#64748B"><path d="M390 347l-15-9v18z"/><path d="M725 347l-15-9v18z"/><path d="M1060 347l-15-9v18z"/></g>
+  <rect x="145" y="560" width="1110" height="104" rx="18" fill="#151B23" stroke="#334155"/>
+  <text x="185" y="603" fill="#FDE68A" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="21" font-weight="700">실무 판단</text>
+  <text x="185" y="638" fill="#CBD5E1" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="16">HTTP 헤더·상태 코드를 service에, SQL 문자열을 handler에 흘려보내지 않는다. 인터페이스는 필요한 방향으로 작게 둔다.</text>
+</svg>

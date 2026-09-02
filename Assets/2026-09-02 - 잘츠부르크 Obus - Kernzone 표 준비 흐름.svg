@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">잘츠부르크 Obus 탑승 전 표 준비와 Kernzone 확인 흐름</title>
+  <desc id="desc">목적지 확인, Kernzone 또는 지역 구역 판단, 앱 또는 자동판매기 구매, Obus 탑승과 시간표 재확인 순서를 나타낸 다이어그램.</desc>
+  <rect width="1400" height="760" fill="#0B0F14"/>
+  <text x="60" y="74" fill="#F1F5F9" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">잘츠부르크 Obus: 탑승 전에 구역·표·시간표를 분리해 확인한다</text>
+  <text x="60" y="104" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="15">2026년 기준: Obus 다수 노선은 기사에게 표를 살 수 없으므로, 출발 전에 유효한 표를 준비한다.</text>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif">
+    <rect x="80" y="250" width="260" height="210" rx="22" fill="#152533" stroke="#38BDF8" stroke-width="2"/>
+    <text x="210" y="315" text-anchor="middle" fill="#7DD3FC" font-size="25" font-weight="700">1. 목적지 확인</text>
+    <text x="210" y="356" text-anchor="middle" fill="#E5E7EB" font-size="19">시내 Kernzone?</text>
+    <text x="210" y="388" text-anchor="middle" fill="#94A3B8" font-size="18">지역 이동·공항·국경?</text>
+    <rect x="410" y="250" width="260" height="210" rx="22" fill="#20233C" stroke="#A78BFA" stroke-width="2"/>
+    <text x="540" y="315" text-anchor="middle" fill="#C4B5FD" font-size="25" font-weight="700">2. 요금 범위</text>
+    <text x="540" y="356" text-anchor="middle" fill="#E5E7EB" font-size="19">Kernzone 24시간권</text>
+    <text x="540" y="388" text-anchor="middle" fill="#94A3B8" font-size="18">또는 지역 구역권</text>
+    <rect x="740" y="250" width="260" height="210" rx="22" fill="#263023" stroke="#4ADE80" stroke-width="2"/>
+    <text x="870" y="315" text-anchor="middle" fill="#86EFAC" font-size="25" font-weight="700">3. 미리 구매</text>
+    <text x="870" y="356" text-anchor="middle" fill="#E5E7EB" font-size="19">앱·웹·자동판매기</text>
+    <text x="870" y="388" text-anchor="middle" fill="#94A3B8" font-size="18">정류장·S-Bahn 역</text>
+    <rect x="1070" y="250" width="260" height="210" rx="22" fill="#36251B" stroke="#FB923C" stroke-width="2"/>
+    <text x="1200" y="315" text-anchor="middle" fill="#FDBA74" font-size="25" font-weight="700">4. 탑승·재확인</text>
+    <text x="1200" y="356" text-anchor="middle" fill="#E5E7EB" font-size="19">유효 표 소지</text>
+    <text x="1200" y="388" text-anchor="middle" fill="#94A3B8" font-size="18">당일 운행 변경 확인</text>
+  </g>
+  <g stroke="#64748B" stroke-width="4" fill="none"><path d="M340 355H395"/><path d="M670 355H725"/><path d="M1000 355H1055"/></g>
+  <g fill="#64748B"><path d="M395 355l-15-9v18z"/><path d="M725 355l-15-9v18z"/><path d="M1055 355l-15-9v18z"/></g>
+  <rect x="175" y="563" width="1050" height="85" rx="18" fill="#151B23" stroke="#334155"/>
+  <text x="700" y="601" text-anchor="middle" fill="#FDE68A" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="21" font-weight="700">핵심 경계</text>
+  <text x="700" y="630" text-anchor="middle" fill="#CBD5E1" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="16">시내권 표의 범위와 지역 구역은 별도로 계산한다. 12월 실제 노선·공사·휴일 시간표는 출발 전에 공식 검색기로 다시 확인한다.</text>
+</svg>

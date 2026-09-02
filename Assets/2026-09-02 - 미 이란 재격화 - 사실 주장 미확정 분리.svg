@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">미국과 이란의 재격화 보도에서 정보 단계를 구분하는 방법</title>
+  <desc id="desc">확인된 보도, 당사자 주장, 아직 독립 확인되지 않은 결과로 정보를 나누고 후속 확인 항목을 연결한 다이어그램.</desc>
+  <rect width="1400" height="760" fill="#0B0F14"/>
+  <text x="60" y="74" fill="#F1F5F9" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="23" font-weight="700">진행 중인 분쟁 보도는 ‘무슨 일이 있었나’와 ‘누가 말했나’를 분리해 읽는다</text>
+  <text x="60" y="104" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="15">2026-09-01 후속 보도 기준 · 사건의 영향과 피해 규모는 독립 확인 전까지 확정 사실로 쓰지 않는다.</text>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif">
+    <rect x="70" y="205" width="380" height="310" rx="24" fill="#152533" stroke="#38BDF8" stroke-width="2"/>
+    <text x="110" y="260" fill="#7DD3FC" font-size="25" font-weight="700">확인된 보도</text>
+    <text x="110" y="310" fill="#E5E7EB" font-size="20">미국의 이란 타격과</text>
+    <text x="110" y="340" fill="#E5E7EB" font-size="20">이란의 미사일·드론 대응이</text>
+    <text x="110" y="370" fill="#E5E7EB" font-size="20">같은 날 보도됐다.</text>
+    <rect x="510" y="205" width="380" height="310" rx="24" fill="#36251B" stroke="#FB923C" stroke-width="2"/>
+    <text x="550" y="260" fill="#FDBA74" font-size="25" font-weight="700">당사자 주장</text>
+    <text x="550" y="310" fill="#E5E7EB" font-size="20">미 중부사령부의 타격 이유,</text>
+    <text x="550" y="340" fill="#E5E7EB" font-size="20">이란 측 민간 시설·피해 설명은</text>
+    <text x="550" y="370" fill="#E5E7EB" font-size="20">발표 주체를 붙여 읽는다.</text>
+    <rect x="950" y="205" width="380" height="310" rx="24" fill="#20233C" stroke="#A78BFA" stroke-width="2"/>
+    <text x="990" y="260" fill="#C4B5FD" font-size="25" font-weight="700">아직 미확정</text>
+    <text x="990" y="310" fill="#E5E7EB" font-size="20">피해의 독립 검증,</text>
+    <text x="990" y="340" fill="#E5E7EB" font-size="20">해협 통항의 실제 정상화,</text>
+    <text x="990" y="370" fill="#E5E7EB" font-size="20">휴전·외교 결과는 미결이다.</text>
+  </g>
+  <path d="M450 360H495M890 360H935" stroke="#64748B" stroke-width="4"/><path d="M495 360l-15-9v18zM935 360l-15-9v18z" fill="#64748B"/>
+  <rect x="180" y="610" width="1040" height="65" rx="16" fill="#151B23" stroke="#334155"/>
+  <text x="700" y="650" text-anchor="middle" fill="#CBD5E1" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="16">다음 확인: 후속 공식 발표 · 독립 취재 · 해상안전기관 공지 · 실제 외교 합의 문서</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Kubernetes 1.37 운영 변경 요약</title>
+  <desc id="desc">Kubernetes 1.37의 API 서버 watch cache, HPA scale to zero, metrics API 안정화가 운영 점검으로 이어지는 흐름도.</desc>
+  <rect width="1400" height="760" fill="#0B0F14"/>
+  <text x="60" y="75" fill="#F1F5F9" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="27" font-weight="700">Kubernetes 1.37: 새 기능보다 운영 전환 지점을 먼저 확인한다</text>
+  <text x="60" y="105" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="15">2026-08-26 릴리스 기준 · 안정화/베타 기능은 클러스터와 클라이언트의 반응을 함께 점검해야 한다.</text>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif">
+    <rect x="65" y="185" width="400" height="330" rx="22" fill="#152533" stroke="#38BDF8" stroke-width="2"/>
+    <text x="105" y="235" fill="#7DD3FC" font-size="25" font-weight="700">1. API 서버 복원력</text>
+    <text x="105" y="285" fill="#E5E7EB" font-size="20">watch cache 초기화 안정화</text>
+    <text x="105" y="325" fill="#CBD5E1" font-size="18">etcd에 요청이 몰리는 위험을 줄이고</text>
+    <text x="105" y="352" fill="#CBD5E1" font-size="18">과부하 요청은 429로 제한할 수 있다.</text>
+    <rect x="105" y="402" width="320" height="64" rx="12" fill="#0F2435"/>
+    <text x="265" y="431" text-anchor="middle" fill="#E0F2FE" font-size="17">점검: Retry-After + backoff</text>
+    <text x="265" y="454" text-anchor="middle" fill="#94A3B8" font-size="15">custom controller/client</text>
+    <rect x="500" y="185" width="400" height="330" rx="22" fill="#263023" stroke="#4ADE80" stroke-width="2"/>
+    <text x="540" y="235" fill="#86EFAC" font-size="25" font-weight="700">2. 유휴 워크로드 비용</text>
+    <text x="540" y="285" fill="#E5E7EB" font-size="20">HPA scale to zero (Beta)</text>
+    <text x="540" y="325" fill="#CBD5E1" font-size="18">object/external metric 기반이라면</text>
+    <text x="540" y="352" fill="#CBD5E1" font-size="18">minReplicas: 0 설정을 쓸 수 있다.</text>
+    <rect x="540" y="402" width="320" height="64" rx="12" fill="#1C3324"/>
+    <text x="700" y="431" text-anchor="middle" fill="#DCFCE7" font-size="17">점검: wake-up 지연·metric</text>
+    <text x="700" y="454" text-anchor="middle" fill="#94A3B8" font-size="15">모든 workload의 자동 적용은 아님</text>
+    <rect x="935" y="185" width="400" height="330" rx="22" fill="#20233C" stroke="#A78BFA" stroke-width="2"/>
+    <text x="975" y="235" fill="#C4B5FD" font-size="25" font-weight="700">3. 관측 API 전환</text>
+    <text x="975" y="285" fill="#E5E7EB" font-size="20">metrics.k8s.io v1 Stable</text>
+    <text x="975" y="325" fill="#CBD5E1" font-size="18">HPA와 kubectl top의 기반 API가</text>
+    <text x="975" y="352" fill="#CBD5E1" font-size="18">정식 버전으로 안정화됐다.</text>
+    <rect x="975" y="402" width="320" height="64" rx="12" fill="#2C224A"/>
+    <text x="1135" y="431" text-anchor="middle" fill="#EDE9FE" font-size="17">점검: adapter·API 버전</text>
+    <text x="1135" y="454" text-anchor="middle" fill="#94A3B8" font-size="15">기존 v1beta1 전환 계획</text>
+  </g>
+  <path d="M250 572H1150" stroke="#475569" stroke-width="3"/>
+  <circle cx="250" cy="572" r="9" fill="#38BDF8"/><circle cx="700" cy="572" r="9" fill="#4ADE80"/><circle cx="1150" cy="572" r="9" fill="#A78BFA"/>
+  <text x="700" y="642" text-anchor="middle" fill="#FDE68A" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="17" font-weight="700">업그레이드는 기능 목록 확인 → 기존 클라이언트·메트릭·복구 동작 검증 순서로 읽는다.</text>
+</svg>

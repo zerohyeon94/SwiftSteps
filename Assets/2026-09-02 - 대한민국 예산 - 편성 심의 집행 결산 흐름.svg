@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">대한민국 국가예산의 편성부터 결산까지</title>
+  <desc id="desc">정부 편성, 국회 심의 확정, 행정부 집행, 결산과 감사의 순환 구조를 나타낸 다이어그램.</desc>
+  <rect width="1400" height="760" fill="#0B0F14"/>
+  <text x="60" y="75" fill="#F1F5F9" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">대한민국 예산은 ‘정부가 쓰는 돈’이 아니라 편성·심의·집행·결산의 순환이다</text>
+  <text x="60" y="105" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="15">예산안·본예산·추경·결산은 모두 다른 시점의 문서이며, 규모만으로 성과를 단정할 수 없다.</text>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif">
+    <rect x="80" y="235" width="265" height="245" rx="24" fill="#152533" stroke="#38BDF8" stroke-width="2"/>
+    <text x="212" y="300" text-anchor="middle" fill="#7DD3FC" font-size="26" font-weight="700">1. 정부 편성</text>
+    <text x="212" y="345" text-anchor="middle" fill="#E5E7EB" font-size="19">각 부처 요구</text>
+    <text x="212" y="376" text-anchor="middle" fill="#E5E7EB" font-size="19">기획재정부 조정·예산안</text>
+    <rect x="400" y="235" width="265" height="245" rx="24" fill="#20233C" stroke="#A78BFA" stroke-width="2"/>
+    <text x="532" y="300" text-anchor="middle" fill="#C4B5FD" font-size="26" font-weight="700">2. 국회 심의</text>
+    <text x="532" y="345" text-anchor="middle" fill="#E5E7EB" font-size="19">상임위·예결위 검토</text>
+    <text x="532" y="376" text-anchor="middle" fill="#E5E7EB" font-size="19">수정·의결 → 본예산</text>
+    <rect x="720" y="235" width="265" height="245" rx="24" fill="#263023" stroke="#4ADE80" stroke-width="2"/>
+    <text x="852" y="300" text-anchor="middle" fill="#86EFAC" font-size="26" font-weight="700">3. 집행</text>
+    <text x="852" y="345" text-anchor="middle" fill="#E5E7EB" font-size="19">사업 계약·지출</text>
+    <text x="852" y="376" text-anchor="middle" fill="#E5E7EB" font-size="19">필요시 추경은 별도 절차</text>
+    <rect x="1040" y="235" width="265" height="245" rx="24" fill="#36251B" stroke="#FB923C" stroke-width="2"/>
+    <text x="1172" y="300" text-anchor="middle" fill="#FDBA74" font-size="26" font-weight="700">4. 결산·감사</text>
+    <text x="1172" y="345" text-anchor="middle" fill="#E5E7EB" font-size="19">실제 수입·지출 결산</text>
+    <text x="1172" y="376" text-anchor="middle" fill="#E5E7EB" font-size="19">국회 심사·감사원 감사</text>
+  </g>
+  <g stroke="#64748B" stroke-width="4" fill="none"><path d="M345 357H385"/><path d="M665 357H705"/><path d="M985 357H1025"/><path d="M1172 495C1172 635 212 635 212 495"/></g>
+  <g fill="#64748B"><path d="M385 357l-15-9v18z"/><path d="M705 357l-15-9v18z"/><path d="M1025 357l-15-9v18z"/><path d="M212 495l-9 15h18z"/></g>
+  <rect x="210" y="620" width="980" height="58" rx="15" fill="#151B23" stroke="#334155"/>
+  <text x="700" y="657" text-anchor="middle" fill="#CBD5E1" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="16">뉴스를 읽을 때는 ‘예산안 발표’, ‘국회 확정’, ‘실제 집행’, ‘결산 결과’ 중 어느 단계인지 먼저 구분한다.</text>
+</svg>
