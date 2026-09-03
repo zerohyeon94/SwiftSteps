@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">미 이란 충돌 뉴스를 정보 층위로 나누는 도표</title>
+  <desc id="desc">CENTCOM 공식 발표, AP가 전한 당사국 발표, UKMTO 선박 안전 공지를 분리해 읽는 흐름</desc>
+  <rect width="1200" height="630" fill="#0B0F14"/>
+  <rect x="44" y="38" width="1112" height="554" rx="22" fill="#151B23" stroke="#263344"/>
+  <text x="82" y="94" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="30" font-weight="700">같은 충돌 뉴스라도 ‘누가 무엇을 확인했는지’를 나눠 읽기</text>
+  <text x="82" y="126" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="17">2026.09.01–02 공개 자료 기준 · 결과·책임·피해 규모는 계속 확인이 필요한 별도 질문</text>
+  <line x1="191" y1="192" x2="1009" y2="192" stroke="#334155" stroke-width="4"/>
+  <circle cx="191" cy="192" r="15" fill="#60A5FA"/><circle cx="600" cy="192" r="15" fill="#F59E0B"/><circle cx="1009" cy="192" r="15" fill="#2DD4BF"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" text-anchor="middle">
+    <text x="191" y="165" fill="#BFDBFE" font-size="18" font-weight="700">기관의 공식 발표</text>
+    <text x="600" y="165" fill="#FDE68A" font-size="18" font-weight="700">당사국 발표·보도</text>
+    <text x="1009" y="165" fill="#99F6E4" font-size="18" font-weight="700">검증된 안전 공지</text>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif">
+    <rect x="78" y="238" width="326" height="211" rx="18" fill="#172554" stroke="#2563EB"/>
+    <text x="105" y="278" fill="#DBEAFE" font-size="21" font-weight="700">CENTCOM · 9월 1일</text>
+    <text x="105" y="316" fill="#E5E7EB" font-size="16">• 타격 완료를 공식 발표</text>
+    <text x="105" y="347" fill="#CBD5E1" font-size="16">• 표적 범주를 열거</text>
+    <text x="105" y="378" fill="#CBD5E1" font-size="16">• 타격 이유는 미군의 설명</text>
+    <text x="105" y="419" fill="#93C5FD" font-size="15">표현: “CENTCOM은 밝혔다”</text>
+    <rect x="437" y="238" width="326" height="211" rx="18" fill="#422006" stroke="#D97706"/>
+    <text x="464" y="278" fill="#FEF3C7" font-size="21" font-weight="700">AP · 9월 2일</text>
+    <text x="464" y="316" fill="#E5E7EB" font-size="16">• 걸프 국가 공격 보도</text>
+    <text x="464" y="347" fill="#CBD5E1" font-size="16">• 각국·이란 측 발표을 인용</text>
+    <text x="464" y="378" fill="#CBD5E1" font-size="16">• 피해 세부는 독립 확인 제한</text>
+    <text x="464" y="419" fill="#FCD34D" font-size="15">표현: “AP에 따르면 ~라고 밝혔다”</text>
+    <rect x="796" y="238" width="326" height="211" rx="18" fill="#12343A" stroke="#0F9F9A"/>
+    <text x="823" y="278" fill="#CCFBF1" font-size="21" font-weight="700">UKMTO · 9월 2일</text>
+    <text x="823" y="316" fill="#E5E7EB" font-size="16">• 유조선 사고의 검증된 보고</text>
+    <text x="823" y="347" fill="#CBD5E1" font-size="16">• 두 사상자·조사 중 공지</text>
+    <text x="823" y="378" fill="#CBD5E1" font-size="16">• 원인·책임은 결론 전</text>
+    <text x="823" y="419" fill="#5EEAD4" font-size="15">표현: “UKMTO는 공지했다”</text>
+  </g>
+  <rect x="78" y="490" width="1044" height="58" rx="14" fill="#1F2937"/>
+  <text x="600" y="526" text-anchor="middle" fill="#E5E7EB" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="19" font-weight="600">안전 공지 = 위험 신호  ·  당사자 발표 = 발표 주체의 주장  ·  최종 책임·피해·통항 정상화 = 후속 확인</text>
+</svg>

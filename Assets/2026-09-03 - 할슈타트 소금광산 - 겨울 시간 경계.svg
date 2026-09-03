@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">할슈타트 Salzwelten 겨울 운영 시간 경계</title>
+  <desc id="desc">광산 마지막 가이드 투어 시작 오후 3시와 푸니쿨라 마지막 하산 오후 4시 30분을 구분하는 시간 도표</desc>
+  <rect width="1200" height="630" fill="#0B0F14"/>
+  <rect x="44" y="38" width="1112" height="554" rx="22" fill="#151B23" stroke="#263344"/>
+  <text x="82" y="94" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="30" font-weight="700">할슈타트 소금광산 · 푸니쿨라: 겨울에는 마감 기준이 다르다</text>
+  <text x="82" y="126" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="17">공식 운영표 기준: 2026.10.25–2027.01.06 · 방문 당일 예매·기상·운행 공지 재확인</text>
+  <line x1="178" y1="272" x2="1038" y2="272" stroke="#334155" stroke-width="9" stroke-linecap="round"/>
+  <g fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="16" text-anchor="middle">
+    <text x="178" y="307">09:00</text><text x="321" y="307">09:30</text><text x="751" y="307">15:00</text><text x="966" y="307">16:30</text>
+  </g>
+  <g stroke="#50627B" stroke-width="2"><line x1="178" y1="257" x2="178" y2="287"/><line x1="321" y1="257" x2="321" y2="287"/><line x1="751" y1="257" x2="751" y2="287"/><line x1="966" y1="257" x2="966" y2="287"/></g>
+  <rect x="176" y="190" width="792" height="35" rx="17" fill="#0E7490"/>
+  <circle cx="178" cy="207" r="11" fill="#67E8F9"/><circle cx="966" cy="207" r="11" fill="#67E8F9"/>
+  <text x="572" y="175" fill="#A5F3FC" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="18" text-anchor="middle" font-weight="600">푸니쿨라 09:00–16:30 · 마지막 하산 기준</text>
+  <rect x="320" y="337" width="432" height="35" rx="17" fill="#A16207"/>
+  <circle cx="321" cy="354" r="11" fill="#FCD34D"/><circle cx="751" cy="354" r="11" fill="#FCD34D"/>
+  <text x="536" y="409" fill="#FDE68A" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="18" text-anchor="middle" font-weight="600">소금광산 09:30–15:00 · 마지막 가이드 투어 시작</text>
+  <path d="M178 486 H361 L417 442 L496 486 H663 L740 417 L818 486 H1038" fill="none" stroke="#475569" stroke-width="5" stroke-linejoin="round"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif">
+    <rect x="83" y="454" width="286" height="96" rx="14" fill="#1F2937" stroke="#334155"/>
+    <text x="107" y="488" fill="#E5E7EB" font-size="18" font-weight="700">1. 산 위로 이동</text><text x="107" y="520" fill="#94A3B8" font-size="15">푸니쿨라 왕복과 도보 접근은 별도</text>
+    <rect x="457" y="454" width="286" height="96" rx="14" fill="#1F2937" stroke="#334155"/>
+    <text x="481" y="488" fill="#E5E7EB" font-size="18" font-weight="700">2. 광산 투어</text><text x="481" y="520" fill="#94A3B8" font-size="15">15:00 전 집결·입장 조건 확인</text>
+    <rect x="831" y="454" width="286" height="96" rx="14" fill="#1F2937" stroke="#334155"/>
+    <text x="855" y="488" fill="#E5E7EB" font-size="18" font-weight="700">3. 전망과 하산</text><text x="855" y="520" fill="#94A3B8" font-size="15">Skywalk 조건과 16:30 하산 분리</text>
+  </g>
+</svg>

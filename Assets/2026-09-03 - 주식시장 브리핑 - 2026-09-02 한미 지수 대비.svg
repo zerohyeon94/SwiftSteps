@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 9월 2일 한국과 미국 주가지수 등락률 비교</title>
+  <desc id="desc">코스피와 코스닥의 하락, S&amp;P 500과 나스닥 종합의 상승을 정규장 종가 기준으로 보여 주는 막대 그래프</desc>
+  <rect width="1200" height="630" fill="#0B0F14"/>
+  <rect x="44" y="38" width="1112" height="554" rx="22" fill="#151B23" stroke="#263344"/>
+  <text x="82" y="94" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="30" font-weight="700">2026.09.02 한·미 주가지수: 같은 날짜, 다른 마감 시점</text>
+  <text x="82" y="126" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="17">정규장 종가 대비 등락률 · KOSPI/KOSDAQ은 한국 15:30, S&amp;P/Nasdaq은 미국 장 마감 기준</text>
+  <line x1="130" y1="334" x2="1075" y2="334" stroke="#94A3B8" stroke-width="2"/>
+  <g fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="15"><text x="82" y="247">+4%</text><text x="82" y="338">0%</text><text x="82" y="429">-4%</text></g>
+  <g stroke="#263344" stroke-width="1"><line x1="130" y1="243" x2="1075" y2="243"/><line x1="130" y1="425" x2="1075" y2="425"/></g>
+  <rect x="220" y="334" width="122" height="91" rx="10" fill="#F97316"/>
+  <rect x="440" y="334" width="122" height="48" rx="10" fill="#FB7185"/>
+  <rect x="660" y="324" width="122" height="10" rx="5" fill="#38BDF8"/>
+  <rect x="880" y="324" width="122" height="10" rx="5" fill="#2DD4BF"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" text-anchor="middle">
+    <text x="281" y="458" fill="#E5E7EB" font-size="19" font-weight="700">코스피</text><text x="281" y="485" fill="#FB923C" font-size="20" font-weight="700">-3.99%</text><text x="281" y="511" fill="#94A3B8" font-size="15">6,562.72</text>
+    <text x="501" y="458" fill="#E5E7EB" font-size="19" font-weight="700">코스닥</text><text x="501" y="485" fill="#FDA4AF" font-size="20" font-weight="700">-2.10%</text><text x="501" y="511" fill="#94A3B8" font-size="15">803.98</text>
+    <text x="721" y="303" fill="#7DD3FC" font-size="20" font-weight="700">+0.46%</text><text x="721" y="365" fill="#E5E7EB" font-size="19" font-weight="700">S&amp;P 500</text><text x="721" y="392" fill="#94A3B8" font-size="15">7,666.60</text>
+    <text x="941" y="303" fill="#5EEAD4" font-size="20" font-weight="700">+0.45%</text><text x="941" y="365" fill="#E5E7EB" font-size="19" font-weight="700">나스닥 종합</text><text x="941" y="392" fill="#94A3B8" font-size="15">26,217.83</text>
+  </g>
+  <rect x="82" y="546" width="1037" height="25" rx="12" fill="#1F2937"/>
+  <text x="600" y="564" text-anchor="middle" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif" font-size="14">한국은 유가·금리·전일 미국 약세를 먼저 반영했고, 미국은 기술주 상승과 금리 안정에 반등 — 방향 차이는 단일 원인으로 단정하지 않음</text>
+</svg>
