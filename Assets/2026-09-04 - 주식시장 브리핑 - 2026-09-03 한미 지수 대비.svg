@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 9월 3일 한국과 미국 주요 주가지수 등락률</title>
+  <desc id="desc">코스피와 코스닥, S&amp;P 500, 다우, 나스닥의 2026년 9월 3일 등락률을 비교한 다크 모드 막대 차트.</desc>
+  <rect width="1600" height="900" fill="#0B0F14"/>
+  <rect x="54" y="46" width="1492" height="808" rx="32" fill="#111827" stroke="#263447" stroke-width="2"/>
+  <text x="112" y="126" fill="#F1F5F9" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="39" font-weight="700">2026-09-03 한·미 주가지수 등락률</text>
+  <text x="112" y="169" fill="#94A3B8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22">한국 정규장 마감과 미국 9월 3일 정규장 마감의 일간 변동률 · 단위: %</text>
+
+  <line x1="530" y1="246" x2="530" y2="665" stroke="#E5E7EB" stroke-width="3"/>
+  <line x1="305" y1="246" x2="305" y2="665" stroke="#334155" stroke-width="2" stroke-dasharray="7 8"/>
+  <line x1="755" y1="246" x2="755" y2="665" stroke="#334155" stroke-width="2" stroke-dasharray="7 8"/>
+  <line x1="980" y1="246" x2="980" y2="665" stroke="#334155" stroke-width="2" stroke-dasharray="7 8"/>
+  <text x="287" y="225" fill="#94A3B8" font-family="Arial, sans-serif" font-size="20">-2</text>
+  <text x="515" y="225" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="20">0</text>
+  <text x="742" y="225" fill="#94A3B8" font-family="Arial, sans-serif" font-size="20">+2</text>
+  <text x="967" y="225" fill="#94A3B8" font-family="Arial, sans-serif" font-size="20">+4</text>
+
+  <text x="140" y="310" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="700">KOSPI</text>
+  <rect x="530" y="278" width="29" height="48" rx="8" fill="#38BDF8"/>
+  <text x="580" y="310" fill="#7DD3FC" font-family="Arial, sans-serif" font-size="26" font-weight="700">+0.26%</text>
+
+  <text x="140" y="390" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="700">KOSDAQ</text>
+  <rect x="337" y="358" width="193" height="48" rx="8" fill="#FB923C"/>
+  <text x="285" y="390" fill="#FDBA74" font-family="Arial, sans-serif" font-size="26" font-weight="700">-1.71%</text>
+
+  <text x="140" y="470" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="700">S&amp;P 500</text>
+  <rect x="530" y="438" width="124" height="48" rx="8" fill="#2DD4BF"/>
+  <text x="675" y="470" fill="#99F6E4" font-family="Arial, sans-serif" font-size="26" font-weight="700">+1.1%</text>
+
+  <text x="140" y="550" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="700">Dow</text>
+  <rect x="530" y="518" width="135" height="48" rx="8" fill="#2DD4BF"/>
+  <text x="686" y="550" fill="#99F6E4" font-family="Arial, sans-serif" font-size="26" font-weight="700">+1.2%</text>
+
+  <text x="140" y="630" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="700">Nasdaq</text>
+  <rect x="530" y="598" width="158" height="48" rx="8" fill="#2DD4BF"/>
+  <text x="709" y="630" fill="#99F6E4" font-family="Arial, sans-serif" font-size="26" font-weight="700">+1.4%</text>
+
+  <rect x="1080" y="270" width="362" height="360" rx="22" fill="#151F2E" stroke="#334155"/>
+  <text x="1120" y="326" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="700">시장 맥락</text>
+  <text x="1120" y="380" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">미 10년물: 4.77%</text>
+  <text x="1120" y="420" fill="#94A3B8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="19">전일 4.79%에서 하락</text>
+  <text x="1120" y="478" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">브렌트: $95.52 (-0.1%)</text>
+  <text x="1120" y="518" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">WTI: $91.30 (+0.3%)</text>
+  <text x="1120" y="578" fill="#94A3B8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="19">유가·금리의 높은 수준은 계속 주시</text>
+
+  <text x="112" y="831" fill="#94A3B8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18">자료: KRX(국내 지수), AP(미국 지수·유가·미 10년물) · 기준일과 장 마감 시간이 서로 다름 · 투자 판단 자료가 아님</text>
+</svg>

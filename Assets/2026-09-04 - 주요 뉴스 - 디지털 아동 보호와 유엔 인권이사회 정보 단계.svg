@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">디지털 아동 보호 보고서와 유엔 인권이사회 회기의 정보 단계</title>
+  <desc id="desc">확인된 보고서 공개와 예정된 유엔 인권이사회 회기, 그리고 아직 확정되지 않은 정책 결과를 구분하는 다크 모드 타임라인.</desc>
+  <rect width="1600" height="900" fill="#0B0F14"/>
+  <rect x="54" y="46" width="1492" height="808" rx="32" fill="#111827" stroke="#263447" stroke-width="2"/>
+  <text x="112" y="126" fill="#F1F5F9" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="39" font-weight="700">뉴스를 읽는 단위: 근거 · 일정 · 결과</text>
+  <text x="112" y="172" fill="#94A3B8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">보고서의 수치, 국제기구의 회기 공지, 실제 정책 결과는 같은 정보 단계가 아니다.</text>
+
+  <line x1="210" y1="438" x2="1390" y2="438" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="348" cy="438" r="25" fill="#38BDF8"/>
+  <circle cx="800" cy="438" r="25" fill="#A78BFA"/>
+  <circle cx="1252" cy="438" r="25" fill="#FB923C"/>
+
+  <rect x="126" y="254" width="444" height="135" rx="22" fill="#132438" stroke="#38BDF8" stroke-width="2"/>
+  <text x="160" y="305" fill="#7DD3FC" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">확인된 발표 · 9월 3일</text>
+  <text x="160" y="348" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="700">UNICEF 보고서 공개</text>
+  <text x="160" y="377" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="19">21개국 인터넷 이용 아동 표본의 분석 결과</text>
+
+  <rect x="578" y="496" width="444" height="135" rx="22" fill="#211A38" stroke="#A78BFA" stroke-width="2"/>
+  <text x="612" y="547" fill="#C4B5FD" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">공식 일정 · 9월 7일~10월 7일</text>
+  <text x="612" y="590" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="700">유엔 인권이사회 63차 회기</text>
+  <text x="612" y="619" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="19">대화·보고서 발표 일정은 확인, 결과는 아직 아님</text>
+
+  <rect x="1030" y="254" width="444" height="135" rx="22" fill="#2B211B" stroke="#FB923C" stroke-width="2"/>
+  <text x="1064" y="305" fill="#FDBA74" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700">미확정 결과</text>
+  <text x="1064" y="348" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="700">법·플랫폼·국제 논의의 변화</text>
+  <text x="1064" y="377" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="19">권고·의제와 실제 결정·이행을 분리해서 확인</text>
+
+  <rect x="126" y="684" width="1348" height="104" rx="20" fill="#0F1B27" stroke="#28516C"/>
+  <text x="164" y="731" fill="#E0F2FE" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="26" font-weight="700">읽을 때의 경계</text>
+  <text x="164" y="770" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">표본·조사 범위의 발견 ≠ 전 세계 전체 비율 · 공식 회기 공지 ≠ 결의·정책의 채택 · 두 사건 사이의 인과관계도 별도 근거가 필요</text>
+  <text x="112" y="831" fill="#94A3B8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18">2026-09-04 KST · UNICEF와 UN Geneva의 공식 발표을 바탕으로 한 정보 상태 개념도</text>
+</svg>

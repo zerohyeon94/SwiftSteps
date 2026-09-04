@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">스위스 철도에서 승차권, 좌석 예약, 추가요금을 구분하는 흐름</title>
+  <desc id="desc">승차권은 탑승 권한, 좌석 예약은 자리 지정, 파노라마 열차 추가요금은 별도 조건이라는 점을 보여 주는 다크 모드 개념도.</desc>
+  <rect width="1600" height="900" fill="#0B0F14"/>
+  <rect x="54" y="46" width="1492" height="808" rx="32" fill="#111827" stroke="#263447" stroke-width="2"/>
+  <text x="112" y="126" fill="#F1F5F9" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="40" font-weight="700">스위스 열차: 서로 다른 세 가지 확인</text>
+  <text x="112" y="172" fill="#94A3B8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">같은 이동을 준비해도 ‘탈 수 있는가 · 어디에 앉는가 · 추가 조건이 있는가’는 별개의 질문이다.</text>
+
+  <path d="M270 418 H1330" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+  <path d="M527 418 H574" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1026 418 H1073" stroke="#A78BFA" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="565,399 599,418 565,437" fill="#38BDF8"/>
+  <polygon points="1064,399 1098,418 1064,437" fill="#A78BFA"/>
+
+  <rect x="112" y="248" width="400" height="352" rx="24" fill="#151F2E" stroke="#38BDF8" stroke-width="2"/>
+  <circle cx="166" cy="306" r="27" fill="#0E7490"/>
+  <text x="157" y="315" fill="#E0F2FE" font-family="Arial, sans-serif" font-size="25" font-weight="700">1</text>
+  <text x="208" y="315" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="700">승차권 · 패스</text>
+  <text x="148" y="370" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">질문: 이 경로에 탑승할 권한이 있는가?</text>
+  <line x1="148" y1="399" x2="475" y2="399" stroke="#334155"/>
+  <text x="148" y="445" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 출발 전에 유효한 승차권이 필요</text>
+  <text x="148" y="486" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 패스도 유효 범위·여행일을 따로 확인</text>
+  <text x="148" y="527" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 할인표는 특정 열차·일자 조건이 가능</text>
+  <text x="148" y="566" fill="#7DD3FC" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20">‘탑승 가능’의 문서</text>
+
+  <rect x="600" y="248" width="400" height="352" rx="24" fill="#192238" stroke="#A78BFA" stroke-width="2"/>
+  <circle cx="654" cy="306" r="27" fill="#6D28D9"/>
+  <text x="645" y="315" fill="#F3E8FF" font-family="Arial, sans-serif" font-size="25" font-weight="700">2</text>
+  <text x="696" y="315" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="700">좌석 예약</text>
+  <text x="636" y="370" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">질문: 어느 자리에 앉는가?</text>
+  <line x1="636" y1="399" x2="963" y2="399" stroke="#334155"/>
+  <text x="636" y="445" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 스위스 국내 IC는 대체로 선택 사항</text>
+  <text x="636" y="486" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 시간표의 R/필수 여부를 다시 확인</text>
+  <text x="636" y="527" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 좌석을 사도 탑승권을 대신하지 않음</text>
+  <text x="636" y="566" fill="#C4B5FD" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20">‘자리 지정’의 문서</text>
+
+  <rect x="1088" y="248" width="400" height="352" rx="24" fill="#24202A" stroke="#FB923C" stroke-width="2"/>
+  <circle cx="1142" cy="306" r="27" fill="#C2410C"/>
+  <text x="1133" y="315" fill="#FFF7ED" font-family="Arial, sans-serif" font-size="25" font-weight="700">3</text>
+  <text x="1184" y="315" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="700">추가요금 · 의무 예약</text>
+  <text x="1124" y="370" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23">질문: 이 열차에 별도 조건이 있는가?</text>
+  <line x1="1124" y1="399" x2="1451" y2="399" stroke="#4A3A32"/>
+  <text x="1124" y="445" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 파노라마 열차는 예약·추가요금 가능</text>
+  <text x="1124" y="486" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 패스가 있어도 이 조건은 별도일 수 있음</text>
+  <text x="1124" y="527" fill="#E5E7EB" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24">• 노선·열차·날짜별 실제 화면을 우선</text>
+  <text x="1124" y="566" fill="#FDBA74" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20">‘특별 운행 조건’</text>
+
+  <rect x="112" y="666" width="1376" height="124" rx="20" fill="#0F1B27" stroke="#28516C"/>
+  <text x="150" y="720" fill="#E0F2FE" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="700">출발 전 30초 순서</text>
+  <text x="150" y="762" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25">시간표에서 열차·날짜 확인 → 유효한 승차권/패스 확인 → 예약 의무·추가요금 확인 → 현장 운행 변경 재확인</text>
+  <text x="112" y="831" fill="#94A3B8" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18">개념도 · 2026-09-04 KST · 실제 요금·포함 범위·예약 상태는 SBB 시간표와 구매 화면을 기준으로 확인</text>
+</svg>
