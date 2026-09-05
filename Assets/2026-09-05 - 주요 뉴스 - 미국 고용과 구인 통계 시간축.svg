@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">미국 8월 고용과 7월 구인 통계의 시간축</title>
+  <desc id="desc">BLS 고용상황과 JOLTS의 조사 대상 및 기준월을 분리해 보여 주는 다이어그램</desc>
+  <rect width="1200" height="675" fill="#0B0F14"/>
+  <rect x="56" y="48" width="1088" height="94" rx="18" fill="#151B23" stroke="#334155"/>
+  <text x="92" y="88" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="31" font-weight="700">같은 ‘고용 뉴스’라도 기준월과 질문은 다르다</text>
+  <text x="92" y="119" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">BLS 발표 · 2026-09-01 / 09-04 · 계절조정 수치 · 단위는 명시한 항목별로 다름</text>
+  <line x1="600" y1="182" x2="600" y2="548" stroke="#334155" stroke-width="2"/>
+  <rect x="72" y="182" width="480" height="366" rx="20" fill="#162333" stroke="#38BDF8" stroke-width="2"/>
+  <text x="108" y="231" fill="#7DD3FC" font-family="Apple SD Gothic Neo, sans-serif" font-size="19" font-weight="700">9월 4일 발표 · 8월 Employment Situation</text>
+  <text x="108" y="279" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="27" font-weight="700">사람과 급여명부의 현재 상태</text>
+  <rect x="108" y="314" width="188" height="86" rx="12" fill="#0C4A6E"/>
+  <text x="126" y="345" fill="#BAE6FD" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">비농업 고용</text>
+  <text x="126" y="379" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700">+162,000</text>
+  <rect x="316" y="314" width="188" height="86" rx="12" fill="#0C4A6E"/>
+  <text x="334" y="345" fill="#BAE6FD" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">실업률</text>
+  <text x="334" y="379" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700">4.1%</text>
+  <text x="108" y="443" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="19">가계조사: 실업·경제활동 상태</text>
+  <text x="108" y="477" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="19">사업체조사: 고용·근로시간·임금</text>
+  <text x="108" y="514" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">참가율 61.6% · 6·7월 수정 합계 +55,000</text>
+  <rect x="648" y="182" width="480" height="366" rx="20" fill="#1E1B2E" stroke="#A78BFA" stroke-width="2"/>
+  <text x="684" y="231" fill="#C4B5FD" font-family="Apple SD Gothic Neo, sans-serif" font-size="19" font-weight="700">9월 1일 발표 · 7월 JOLTS</text>
+  <text x="684" y="279" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="27" font-weight="700">사업장의 채용·이직 흐름</text>
+  <rect x="684" y="314" width="188" height="86" rx="12" fill="#4C1D95"/>
+  <text x="702" y="345" fill="#DDD6FE" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">구인</text>
+  <text x="702" y="379" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700">7.3m</text>
+  <rect x="892" y="314" width="188" height="86" rx="12" fill="#4C1D95"/>
+  <text x="910" y="345" fill="#DDD6FE" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">채용 / 퇴직</text>
+  <text x="910" y="379" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700">5.1m / 5.1m</text>
+  <text x="684" y="443" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="19">월말의 빈 일자리와 한 달의 인력 이동</text>
+  <text x="684" y="477" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="19">퇴직 3.1m · 해고·면직 1.7m</text>
+  <text x="684" y="514" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">두 보도자료를 같은 달의 같은 지표로 합치지 않기</text>
+  <rect x="72" y="582" width="1056" height="47" rx="13" fill="#151B23"/>
+  <text x="106" y="613" fill="#FBBF24" font-family="Apple SD Gothic Neo, sans-serif" font-size="19" font-weight="700">해석 경계: 발표 수치는 확인된 사실 · 이후 통화정책·경기 결과는 이 자료만으로 확정하지 않음</text>
+</svg>

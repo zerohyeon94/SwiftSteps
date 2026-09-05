@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">프라하 구시청사 천문시계와 탑 관람의 경계</title>
+  <desc id="desc">광장의 정각 쇼, 건물·탑의 관람 시간, 12월 별도 운영 확인을 분리한 개념도</desc>
+  <rect width="1200" height="675" fill="#0B0F14"/>
+  <rect x="56" y="48" width="1088" height="94" rx="18" fill="#151B23" stroke="#334155"/>
+  <text x="92" y="88" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="31" font-weight="700">프라하 구시청사: 세 가지 시간표를 같은 것으로 보지 않기</text>
+  <text x="92" y="119" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">개념도 · 2026-09-05 · 실제 운영·입장 조건은 방문일 공식 안내에서 재확인</text>
+  <line x1="259" y1="192" x2="259" y2="526" stroke="#334155" stroke-width="2"/>
+  <line x1="600" y1="192" x2="600" y2="526" stroke="#334155" stroke-width="2"/>
+  <rect x="72" y="192" width="310" height="334" rx="18" fill="#17212B" stroke="#38BDF8" stroke-width="2"/>
+  <circle cx="118" cy="242" r="24" fill="#0C4A6E"/><path d="M118 224v19l13 8" fill="none" stroke="#7DD3FC" stroke-width="4" stroke-linecap="round"/>
+  <text x="156" y="236" fill="#E0F2FE" font-family="Apple SD Gothic Neo, sans-serif" font-size="25" font-weight="700">광장의 정각 쇼</text>
+  <text x="102" y="291" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="20">밖에서 보는 공개 장면</text>
+  <text x="102" y="328" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">공식 안내: 08:00–23:00</text>
+  <text x="102" y="360" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">매 정각에 사도상 장면</text>
+  <text x="102" y="423" fill="#FBBF24" font-family="Apple SD Gothic Neo, sans-serif" font-size="19" font-weight="700">≠ 탑 내부 입장권·입장 마감</text>
+  <text x="102" y="460" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">쇼를 볼 수 있어도</text>
+  <text x="102" y="486" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">탑에 오를 수 있는 것은 아님</text>
+  <rect x="445" y="192" width="310" height="334" rx="18" fill="#1E1B2E" stroke="#A78BFA" stroke-width="2"/>
+  <path d="M491 262h34l-17-54z" fill="#7C3AED"/><rect x="499" y="262" width="18" height="50" fill="#A78BFA"/>
+  <text x="544" y="236" fill="#EDE9FE" font-family="Apple SD Gothic Neo, sans-serif" font-size="25" font-weight="700">구시청사·탑 관람</text>
+  <text x="475" y="291" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="20">실내·전망대 방문</text>
+  <text x="475" y="328" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">통상 4–12월 09:00–20:00</text>
+  <text x="475" y="360" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">티켓·입장 마감은 별도 확인</text>
+  <text x="475" y="423" fill="#FBBF24" font-family="Apple SD Gothic Neo, sans-serif" font-size="19" font-weight="700">≠ 광장 쇼의 관람 가능 여부</text>
+  <text x="475" y="460" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">같은 건물이라도</text>
+  <text x="475" y="486" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">외부·내부 조건은 다름</text>
+  <rect x="818" y="192" width="310" height="334" rx="18" fill="#2A1E18" stroke="#FB923C" stroke-width="2"/>
+  <path d="M864 225h44v44h-44z" fill="#9A3412"/><path d="M875 217v16m22-16v16M864 244h44" stroke="#FDBA74" stroke-width="4"/>
+  <text x="916" y="236" fill="#FFEDD5" font-family="Apple SD Gothic Neo, sans-serif" font-size="25" font-weight="700">12월의 예외</text>
+  <text x="848" y="291" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="20">성탄절·행사·안전 통제</text>
+  <text x="848" y="328" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">전년도 예외는 참고일 뿐</text>
+  <text x="848" y="360" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">2026 일정은 아직 확정 아님</text>
+  <text x="848" y="423" fill="#FBBF24" font-family="Apple SD Gothic Neo, sans-serif" font-size="19" font-weight="700">→ 날짜별 공식 공지 확인</text>
+  <text x="848" y="460" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">일반 운영 시간을</text>
+  <text x="848" y="486" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">여행일에 그대로 대입하지 않음</text>
+  <rect x="72" y="566" width="1056" height="59" rx="14" fill="#151B23"/>
+  <text x="100" y="603" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="20">읽는 순서: 날짜 선택 → 탑의 입장·마감 확인 → 정각 쇼 시간 확인 → 성탄절·행사 예외 확인</text>
+</svg>
