@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 9월 4일 한미 주요 주가지수 등락</title>
+  <desc id="desc">코스피, 코스닥, S&amp;P 500, 다우, 나스닥의 일간 등락률을 비교한 막대 그래프</desc>
+  <rect width="1200" height="675" fill="#0B0F14"/>
+  <rect x="56" y="46" width="1088" height="96" rx="18" fill="#151B23" stroke="#334155"/>
+  <text x="92" y="88" fill="#F1F5F9" font-family="Apple SD Gothic Neo, sans-serif" font-size="31" font-weight="700">2026-09-04 한미 주요 주가지수: 한국 반등, 미국 하락</text>
+  <text x="92" y="119" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">기준: 한국 9월 4일 정규장 · 미국 9월 4일 현지 정규장 마감 · 일간 등락률</text>
+  <line x1="164" y1="339" x2="1074" y2="339" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="164" y1="183" x2="164" y2="534" stroke="#64748B" stroke-width="2"/>
+  <text x="94" y="192" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">+3%</text>
+  <text x="94" y="270" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">+1.5%</text>
+  <text x="118" y="344" fill="#CBD5E1" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">0%</text>
+  <text x="96" y="425" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="17">−1.5%</text>
+  <rect x="235" y="253" width="116" height="86" rx="10" fill="#14B8A6"/>
+  <text x="244" y="238" fill="#5EEAD4" font-family="Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">+1.64%</text>
+  <text x="259" y="574" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="22" font-weight="700">KOSPI</text>
+  <text x="243" y="605" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">6,687.21</text>
+  <rect x="411" y="184" width="116" height="155" rx="10" fill="#22C55E"/>
+  <text x="420" y="169" fill="#86EFAC" font-family="Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">+2.95%</text>
+  <text x="430" y="574" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="22" font-weight="700">KOSDAQ</text>
+  <text x="436" y="605" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">813.50</text>
+  <rect x="613" y="339" width="116" height="21" rx="10" fill="#F97316"/>
+  <text x="625" y="393" fill="#FDBA74" font-family="Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">−0.4%</text>
+  <text x="618" y="574" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="22" font-weight="700">S&amp;P 500</text>
+  <text x="638" y="605" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">7,718.60</text>
+  <rect x="789" y="339" width="116" height="26" rx="10" fill="#FB923C"/>
+  <text x="805" y="398" fill="#FED7AA" font-family="Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">−0.5%</text>
+  <text x="813" y="574" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="22" font-weight="700">Dow</text>
+  <text x="809" y="605" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">53,414.25</text>
+  <rect x="965" y="339" width="116" height="16" rx="10" fill="#F97316"/>
+  <text x="977" y="388" fill="#FDBA74" font-family="Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">−0.3%</text>
+  <text x="972" y="574" fill="#E5E7EB" font-family="Apple SD Gothic Neo, sans-serif" font-size="22" font-weight="700">Nasdaq</text>
+  <text x="979" y="605" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="18">26,506.99</text>
+  <text x="86" y="650" fill="#94A3B8" font-family="Apple SD Gothic Neo, sans-serif" font-size="16">출처: KRX·연합뉴스/코리아타임스·AP. 지수 등락 비교이며 투자 판단이나 예측을 뜻하지 않음.</text>
+</svg>
