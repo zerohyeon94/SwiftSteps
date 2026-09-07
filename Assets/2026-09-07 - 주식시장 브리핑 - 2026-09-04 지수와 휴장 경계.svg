@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 9월 4일 한국과 미국 주요 지수 변동</title>
+  <desc id="desc">코스피와 코스닥 상승, S&amp;P 500과 다우와 나스닥 하락을 비교한 막대 차트</desc>
+  <rect width="600" height="600" fill="#0B0F14"/>
+  <rect x="24" y="22" width="552" height="88" rx="16" fill="#151B23" stroke="#334155"/>
+  <text x="46" y="58" fill="#F1F5F9" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="24" font-weight="700">2026-09-04: 한국 반등 · 미국 약세</text>
+  <text x="46" y="85" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14">전 거래일 대비 · 9월 7일 미국 NYSE는 Labor Day 휴장</text>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif">
+    <line x1="48" y1="310" x2="552" y2="310" stroke="#64748B" stroke-width="2"/>
+    <line x1="48" y1="178" x2="552" y2="178" stroke="#334155" stroke-dasharray="4 6"/>
+    <line x1="48" y1="442" x2="552" y2="442" stroke="#334155" stroke-dasharray="4 6"/>
+    <text x="24" y="184" fill="#94A3B8" font-size="13">+3%</text><text x="30" y="316" fill="#CBD5E1" font-size="13">0%</text><text x="24" y="448" fill="#94A3B8" font-size="13">−3%</text>
+    <rect x="84" y="238" width="64" height="72" rx="8" fill="#14B8A6"/><text x="88" y="226" fill="#5EEAD4" font-size="16" font-weight="700">+1.64</text><text x="89" y="340" fill="#E5E7EB" font-size="14" font-weight="700">KOSPI</text>
+    <rect x="177" y="180" width="64" height="130" rx="8" fill="#14B8A6"/><text x="181" y="168" fill="#5EEAD4" font-size="16" font-weight="700">+2.95</text><text x="177" y="340" fill="#E5E7EB" font-size="14" font-weight="700">KOSDAQ</text>
+    <rect x="282" y="310" width="64" height="18" rx="8" fill="#F97316"/><text x="289" y="357" fill="#FDBA74" font-size="16" font-weight="700">−0.4</text><text x="279" y="382" fill="#E5E7EB" font-size="13" font-weight="700">S&amp;P 500</text>
+    <rect x="390" y="310" width="64" height="22" rx="8" fill="#F97316"/><text x="397" y="361" fill="#FDBA74" font-size="16" font-weight="700">−0.5</text><text x="403" y="385" fill="#E5E7EB" font-size="14" font-weight="700">Dow</text>
+    <rect x="490" y="310" width="64" height="14" rx="8" fill="#F97316"/><text x="497" y="353" fill="#FDBA74" font-size="16" font-weight="700">−0.3</text><text x="488" y="378" fill="#E5E7EB" font-size="13" font-weight="700">Nasdaq</text>
+  </g>
+  <rect x="24" y="474" width="552" height="88" rx="16" fill="#151B23" stroke="#334155"/>
+  <text x="46" y="509" fill="#F1F5F9" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="18" font-weight="700">읽는 경계</text>
+  <text x="46" y="536" fill="#CBD5E1" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14">미국 고용지표 뒤 금리 민감도가 커진 9월 4일 마감이다.</text>
+  <text x="46" y="555" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12">유가·환율의 미교차검증 종가는 제외 · 투자 판단·예측 자료가 아님</text>
+  <text x="30" y="586" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12">KRX·연합뉴스 교차 확인 · AP 미국 마감 · NYSE 휴장일 기준</text>
+</svg>

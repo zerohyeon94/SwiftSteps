@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">SBB 열차 편성과 승강장 섹터 확인 흐름</title>
+  <desc id="desc">연결 선택부터 편성, 섹터, 탑승 직전 확인의 네 단계</desc>
+  <rect width="600" height="600" fill="#0B0F14"/>
+  <rect x="24" y="22" width="552" height="88" rx="16" fill="#151B23" stroke="#334155"/>
+  <text x="48" y="58" fill="#F1F5F9" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="25" font-weight="700">스위스 철도: 편성·섹터 확인</text>
+  <text x="48" y="85" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="14">당일 연결 상세와 현장 전광판을 함께 본다.</text>
+  <g font-family="Arial, Apple SD Gothic Neo, sans-serif">
+    <rect x="24" y="136" width="264" height="174" rx="16" fill="#151B23" stroke="#2563EB" stroke-width="2"/>
+    <circle cx="57" cy="170" r="17" fill="#1D4ED8"/><text x="52" y="176" fill="#EFF6FF" font-size="16" font-weight="700">1</text>
+    <text x="84" y="177" fill="#F1F5F9" font-size="20" font-weight="700">연결편 선택</text>
+    <text x="48" y="221" fill="#CBD5E1" font-size="16">열차·플랫폼·운행공지를</text><text x="48" y="246" fill="#CBD5E1" font-size="16">같은 화면에서 확인한다.</text>
+    <text x="48" y="282" fill="#60A5FA" font-size="14">출발 직전에 다시 열기</text>
+    <rect x="312" y="136" width="264" height="174" rx="16" fill="#151B23" stroke="#14B8A6" stroke-width="2"/>
+    <circle cx="345" cy="170" r="17" fill="#0F766E"/><text x="340" y="176" fill="#ECFEFF" font-size="16" font-weight="700">2</text>
+    <text x="372" y="177" fill="#F1F5F9" font-size="20" font-weight="700">편성 보기</text>
+    <text x="336" y="221" fill="#CBD5E1" font-size="16">방향·등석·특수 차량과</text><text x="336" y="246" fill="#CBD5E1" font-size="16">내 차량의 섹터를 찾는다.</text>
+    <text x="336" y="282" fill="#2DD4BF" font-size="14">예약 좌석과는 별도 정보</text>
+    <rect x="24" y="334" width="264" height="174" rx="16" fill="#151B23" stroke="#F59E0B" stroke-width="2"/>
+    <circle cx="57" cy="368" r="17" fill="#B45309"/><text x="52" y="374" fill="#FFFBEB" font-size="16" font-weight="700">3</text>
+    <text x="84" y="375" fill="#F1F5F9" font-size="20" font-weight="700">섹터로 이동</text>
+    <text x="48" y="419" fill="#CBD5E1" font-size="16">A·B·C 등 승강장 표지와</text><text x="48" y="444" fill="#CBD5E1" font-size="16">편성의 섹터를 맞춘다.</text>
+    <text x="48" y="480" fill="#FBBF24" font-size="14">역마다 섹터 길이는 다름</text>
+    <rect x="312" y="334" width="264" height="174" rx="16" fill="#151B23" stroke="#A78BFA" stroke-width="2"/>
+    <circle cx="345" cy="368" r="17" fill="#6D28D9"/><text x="340" y="374" fill="#F5F3FF" font-size="16" font-weight="700">4</text>
+    <text x="372" y="375" fill="#F1F5F9" font-size="20" font-weight="700">탑승 직전</text>
+    <text x="336" y="419" fill="#CBD5E1" font-size="16">차량 표지·전광판의 변경을</text><text x="336" y="444" fill="#CBD5E1" font-size="16">우선해 한 번 더 확인한다.</text>
+    <text x="336" y="480" fill="#C4B5FD" font-size="14">편성은 당일 변경될 수 있음</text>
+  </g>
+  <text x="30" y="558" fill="#CBD5E1" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="15">승차권·예약·차량 위치는 서로 다른 정보다.</text>
+  <text x="30" y="582" fill="#94A3B8" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="12">SBB 고객 안내 기준 · 실제 편성은 선택한 당일 연결에서 확인</text>
+</svg>
