@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">작센안할트 주의회 선거 후 정보 단계</title>
+  <desc id="desc">선거 결과 보도, 정치권의 연정 발언, 실제 정부 구성 결과를 서로 다른 정보 단계로 구분한 타임라인.</desc>
+  <rect width="1200" height="720" fill="#0B0F14"/>
+  <text x="64" y="76" fill="#F1F5F9" font-size="34" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700">작센안할트 선거: 결과 · 발언 · 정부 구성은 다르다</text>
+  <text x="64" y="114" fill="#94A3B8" font-size="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif">2026-09-08 KST 기준. 보도된 사실과 이후 정치 과정의 불확실성을 분리한다.</text>
+  <line x1="140" y1="360" x2="1060" y2="360" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+    <circle cx="225" cy="360" r="25" fill="#38BDF8"/><text x="174" y="423" fill="#7DD3FC" font-size="22" font-weight="700">확인된 결과</text><text x="126" y="459" fill="#E5E7EB" font-size="18">9월 6일 선거 · AfD 1위</text><text x="144" y="490" fill="#CBD5E1" font-size="18">절대 다수에는 미달</text>
+    <circle cx="600" cy="360" r="25" fill="#F59E0B"/><text x="550" y="423" fill="#FCD34D" font-size="22" font-weight="700">당사자 발언</text><text x="497" y="459" fill="#E5E7EB" font-size="18">협력 거부·연정 요구</text><text x="506" y="490" fill="#CBD5E1" font-size="18">정치적 주장·입장</text>
+    <circle cx="975" cy="360" r="25" fill="#A78BFA"/><text x="927" y="423" fill="#C4B5FD" font-size="22" font-weight="700">아직 미확정</text><text x="876" y="459" fill="#E5E7EB" font-size="18">연정 협상·정부 구성</text><text x="882" y="490" fill="#CBD5E1" font-size="18">절차·표결 결과</text>
+  </g>
+  <rect x="64" y="560" width="1072" height="92" rx="16" fill="#1F2937"/>
+  <text x="94" y="598" fill="#F1F5F9" font-size="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif">읽기 원칙: 득표 결과를 곧바로 정책 시행이나 정부 구성의 확정으로 바꾸지 않는다.</text>
+  <text x="94" y="630" fill="#94A3B8" font-size="18" font-family="-apple-system, BlinkMacSystemFont, sans-serif">공식 선거관리기관의 최종 공표와 주의회 절차를 후속으로 확인한다.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">프라하 카를교의 양안과 두 탑</title>
+  <desc id="desc">구시가와 말라스트라나 사이의 블타바강, 카를교, 두 교탑, 프라하성 방향을 보여 주는 개념도</desc>
+  <rect width="1400" height="760" fill="#f8f4ea"/>
+  <rect x="48" y="40" width="1304" height="680" rx="28" fill="#fffdf8" stroke="#d8cfbd" stroke-width="2"/>
+  <text x="98" y="112" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="36" font-weight="700" fill="#243342">카를교: 다리·두 탑·양안 동선을 따로 읽기</text>
+  <text x="98" y="151" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="20" fill="#5d6972">실제 지도 비율이 아닌 방향·역할 개념도 · 2026-09-01 기준</text>
+  <rect x="120" y="260" width="360" height="280" rx="24" fill="#f5e6c8"/>
+  <rect x="920" y="260" width="360" height="280" rx="24" fill="#dfeadb"/>
+  <path d="M480 290 C610 220 790 220 920 290 L920 510 C790 580 610 580 480 510 Z" fill="#a9d7e8"/>
+  <path d="M515 417 C640 365 760 365 885 417" fill="none" stroke="#866449" stroke-width="42" stroke-linecap="round"/>
+  <path d="M515 417 C640 365 760 365 885 417" fill="none" stroke="#d6b48b" stroke-width="18" stroke-linecap="round"/>
+  <rect x="492" y="315" width="62" height="106" rx="6" fill="#9e7251"/>
+  <polygon points="484,315 523,267 562,315" fill="#6c4b3d"/>
+  <rect x="846" y="318" width="60" height="99" rx="6" fill="#9e7251"/>
+  <polygon points="838,318 876,272 914,318" fill="#6c4b3d"/>
+  <rect x="965" y="340" width="82" height="120" rx="5" fill="#c6a07a"/>
+  <polygon points="952,340 1006,270 1060,340" fill="#5b627d"/>
+  <text x="300" y="330" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700" fill="#5d4933">구시가</text>
+  <text x="300" y="368" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="20" fill="#5d4933">강 동쪽</text>
+  <text x="300" y="474" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="19" fill="#5d4933">구시가 교탑</text>
+  <text x="700" y="612" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="28" font-weight="700" fill="#356575">블타바강 위 보행 교량</text>
+  <text x="700" y="645" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="19" fill="#356575">다리를 건너는 일과 탑 내부 관람은 별도 확인</text>
+  <text x="1100" y="330" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="30" font-weight="700" fill="#426044">말라스트라나</text>
+  <text x="1100" y="368" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="20" fill="#426044">강 서쪽</text>
+  <text x="1100" y="474" text-anchor="middle" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="19" fill="#426044">소시가지 교탑 → 프라하성 방향</text>
+  <line x1="554" y1="277" x2="600" y2="205" stroke="#765a46" stroke-width="3"/>
+  <text x="608" y="202" font-family="Arial, Apple SD Gothic Neo, sans-serif" font-size="18" fill="#765a46">탑의 공개·입장 마감은 별도 운영 정보</text>
+  <circle cx="515" cy="417" r="8" fill="#243342"/>
+  <circle cx="885" cy="417" r="8" fill="#243342"/>
+</svg>

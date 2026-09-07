@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Go API 오류 응답과 context 로그 흐름</title>
+  <desc id="desc">요청 context가 handler service repository를 지나고 오류가 사용자 응답과 내부 로그로 분리되는 흐름도.</desc>
+  <rect width="1200" height="720" fill="#0B0F14"/>
+  <text x="60" y="72" fill="#F1F5F9" font-size="34" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700">Go API: 오류 응답 · 로그 · context</text>
+  <text x="60" y="110" fill="#94A3B8" font-size="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif">같은 오류라도 사용자에게 보일 정보와 운영자가 추적할 정보는 다르다.</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+    <rect x="60" y="190" width="220" height="148" rx="18" fill="#151B23" stroke="#38BDF8" stroke-width="2"/>
+    <text x="90" y="240" fill="#7DD3FC" font-size="25" font-weight="700">Handler</text><text x="90" y="280" fill="#CBD5E1" font-size="18">request ID 부여</text><text x="90" y="310" fill="#CBD5E1" font-size="18">HTTP 상태 결정</text>
+    <rect x="490" y="190" width="220" height="148" rx="18" fill="#151B23" stroke="#A78BFA" stroke-width="2"/>
+    <text x="520" y="240" fill="#C4B5FD" font-size="25" font-weight="700">Service</text><text x="520" y="280" fill="#CBD5E1" font-size="18">업무 오류 분류</text><text x="520" y="310" fill="#CBD5E1" font-size="18">context 전달</text>
+    <rect x="920" y="190" width="220" height="148" rx="18" fill="#151B23" stroke="#F59E0B" stroke-width="2"/>
+    <text x="950" y="240" fill="#FCD34D" font-size="25" font-weight="700">Repository</text><text x="950" y="280" fill="#CBD5E1" font-size="18">DB 호출</text><text x="950" y="310" fill="#CBD5E1" font-size="18">원인 오류 반환</text>
+    <path d="M280 264 H465 M710 264 H895" stroke="#60A5FA" stroke-width="5" stroke-linecap="round"/><path d="M465 264 l-14 -10 v20z M895 264 l-14 -10 v20z" fill="#60A5FA"/>
+    <path d="M1030 338 C1030 420 700 420 600 420 C500 420 180 420 180 338" fill="none" stroke="#FB7185" stroke-width="4" stroke-dasharray="10 9"/>
+    <text x="498" y="462" fill="#FDA4AF" font-size="18">원인 오류는 위로 전달하되, 경계마다 의미를 분류</text>
+    <rect x="60" y="526" width="470" height="112" rx="16" fill="#1F2937"/>
+    <text x="90" y="570" fill="#67E8F9" font-size="22" font-weight="700">사용자 응답</text><text x="90" y="608" fill="#E5E7EB" font-size="19">안전한 코드 · 메시지 · request ID</text>
+    <rect x="610" y="526" width="530" height="112" rx="16" fill="#1F2937"/>
+    <text x="640" y="570" fill="#FCD34D" font-size="22" font-weight="700">구조화 로그</text><text x="640" y="608" fill="#E5E7EB" font-size="19">원인 · 계층 · context 취소 · 내부 세부사항</text>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 8월 27일 한국과 미국 시장 지수 및 금리 변화</title>
+  <desc id="desc">코스피, 코스닥, S&amp;P 500, 다우, 나스닥의 전일 대비 등락률과 한국 기준금리 및 미국 10년물의 수준 변화를 표시한 차트다.</desc>
+  <rect width="1200" height="700" fill="#F8FAFC"/>
+  <text x="60" y="66" fill="#0F172A" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="32" font-weight="700" textLength="1060" lengthAdjust="spacingAndGlyphs">2026-08-27 시장 변화: 주가지수 상승과 금리·유가 변수는 분리해서 읽기</text>
+  <text x="60" y="102" fill="#52606D" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18">주가지수는 전일 대비 %, 금리는 기준일 수준과 변화 폭. 한국 정규장과 미국 정규장 마감 기준.</text>
+  <line x1="170" y1="160" x2="170" y2="475" stroke="#94A3B8" stroke-width="2"/><line x1="170" y1="475" x2="1125" y2="475" stroke="#94A3B8" stroke-width="2"/>
+  <g fill="#64748B" font-family="Arial, sans-serif" font-size="15"><text x="118" y="475">0%</text><text x="108" y="415">0.5%</text><text x="108" y="355">1.0%</text><text x="108" y="295">1.5%</text><text x="108" y="235">2.0%</text></g>
+  <g stroke="#E2E8F0" stroke-width="2"><line x1="170" y1="415" x2="1125" y2="415"/><line x1="170" y1="355" x2="1125" y2="355"/><line x1="170" y1="295" x2="1125" y2="295"/><line x1="170" y1="235" x2="1125" y2="235"/></g>
+  <g fill="#2563EB"><rect x="240" y="291" width="105" height="184" rx="8"/><rect x="415" y="319" width="105" height="156" rx="8"/><rect x="590" y="389" width="105" height="86" rx="8"/><rect x="765" y="451" width="105" height="24" rx="8"/><rect x="940" y="287" width="105" height="188" rx="8"/></g>
+  <g fill="#0F172A" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18" font-weight="700"><text x="254" y="278">+1.53%</text><text x="429" y="306">+1.30%</text><text x="605" y="376">+0.72%</text><text x="780" y="438">+0.20%</text><text x="954" y="274">+1.57%</text></g>
+  <g fill="#334155" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="18"><text x="244" y="512">코스피</text><text x="411" y="512">코스닥</text><text x="588" y="512">S&amp;P 500</text><text x="782" y="512">다우</text><text x="956" y="512">나스닥</text></g>
+  <rect x="60" y="565" width="520" height="80" rx="15" fill="#FFF7E6" stroke="#F59E0B" stroke-width="2"/><text x="92" y="598" fill="#92400E" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="20" font-weight="700">한국은행 기준금리: 3.00%</text><text x="92" y="627" fill="#92400E" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">8/27 +0.25%p (2.75% → 3.00%)</text>
+  <rect x="620" y="565" width="520" height="80" rx="15" fill="#FFF7E6" stroke="#F59E0B" stroke-width="2"/><text x="652" y="598" fill="#92400E" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="20" font-weight="700">미국 10년물: 4.67%</text><text x="652" y="627" fill="#92400E" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="17">AP 마감 비교: 4.66% → 4.67%</text>
+</svg>

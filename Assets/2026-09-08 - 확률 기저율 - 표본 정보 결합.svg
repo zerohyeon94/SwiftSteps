@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">확률을 읽을 때 기저율과 표본 정보를 함께 보는 흐름</title>
+  <desc id="desc">관찰된 사건을 해석할 때 먼저 모집단의 기저율, 표본의 크기와 선택 방식, 측정 오류를 함께 확인해야 함을 보이는 도식.</desc>
+  <rect width="1200" height="720" fill="#0B0F14"/>
+  <text x="64" y="76" fill="#F1F5F9" font-size="34" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700">확률 해석: 한 사건보다 기준 정보를 먼저</text>
+  <text x="64" y="114" fill="#94A3B8" font-size="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif">“드문 일이 보였다”는 말은 원인이나 위험을 곧바로 뜻하지 않는다.</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+    <rect x="64" y="180" width="250" height="258" rx="18" fill="#151B23" stroke="#38BDF8" stroke-width="2"/>
+    <text x="94" y="232" fill="#7DD3FC" font-size="25" font-weight="700">기저율</text><text x="94" y="275" fill="#E5E7EB" font-size="19">원래 얼마나</text><text x="94" y="304" fill="#E5E7EB" font-size="19">자주 일어나는가?</text><text x="94" y="360" fill="#94A3B8" font-size="17">모집단 · 기간 · 범위</text>
+    <rect x="475" y="180" width="250" height="258" rx="18" fill="#151B23" stroke="#A78BFA" stroke-width="2"/>
+    <text x="505" y="232" fill="#C4B5FD" font-size="25" font-weight="700">표본</text><text x="505" y="275" fill="#E5E7EB" font-size="19">누구를 얼마나</text><text x="505" y="304" fill="#E5E7EB" font-size="19">어떻게 뽑았는가?</text><text x="505" y="360" fill="#94A3B8" font-size="17">크기 · 선택 편향 · 오차</text>
+    <rect x="886" y="180" width="250" height="258" rx="18" fill="#151B23" stroke="#F59E0B" stroke-width="2"/>
+    <text x="916" y="232" fill="#FCD34D" font-size="25" font-weight="700">조건부 확률</text><text x="916" y="275" fill="#E5E7EB" font-size="19">그 정보가 있을 때</text><text x="916" y="304" fill="#E5E7EB" font-size="19">해석이 달라지는가?</text><text x="916" y="360" fill="#94A3B8" font-size="17">검사 정확도 · 비교군</text>
+    <path d="M314 309 H450 M725 309 H861" stroke="#64748B" stroke-width="5" stroke-linecap="round"/><path d="M450 309 l-14 -10 v20z M861 309 l-14 -10 v20z" fill="#64748B"/>
+    <rect x="64" y="520" width="1072" height="106" rx="16" fill="#1F2937"/>
+    <text x="94" y="563" fill="#34D399" font-size="22" font-weight="700">안전한 결론</text><text x="94" y="602" fill="#E5E7EB" font-size="20">관찰값은 신호일 수 있지만, 기저율·표본·측정 조건 없이 원인이나 개인 위험을 단정하지 않는다.</text>
+  </g>
+</svg>

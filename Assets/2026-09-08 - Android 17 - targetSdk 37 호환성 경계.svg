@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Android 17 targetSdk 37 호환성 점검표</title>
+  <desc id="desc">Android 17에서 targetSdk 37을 올릴 때 확인할 큰 화면, private API, 백그라운드 오디오, 블루투스 읽기 경계를 요약한다.</desc>
+  <rect width="1200" height="720" fill="#0B0F14"/>
+  <text x="64" y="76" fill="#F1F5F9" font-size="34" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700">Android 17 · targetSdk 37 호환성 경계</text>
+  <text x="64" y="114" fill="#94A3B8" font-size="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif">“컴파일 성공”과 “플랫폼 동작 검증”은 다른 단계다.</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+    <rect x="64" y="176" width="500" height="170" rx="18" fill="#151B23" stroke="#38BDF8" stroke-width="2"/>
+    <text x="96" y="226" fill="#7DD3FC" font-size="25" font-weight="700">큰 화면 · 구성 변경</text><text x="96" y="267" fill="#E5E7EB" font-size="19">sw ≥ 600dp에서 고정 방향/비율 제약</text><text x="96" y="298" fill="#CBD5E1" font-size="18">실제 리사이즈·회전·상태 복원 확인</text>
+    <rect x="636" y="176" width="500" height="170" rx="18" fill="#151B23" stroke="#A78BFA" stroke-width="2"/>
+    <text x="668" y="226" fill="#C4B5FD" font-size="25" font-weight="700">런타임 · 리플렉션</text><text x="668" y="267" fill="#E5E7EB" font-size="19">MessageQueue private 접근 · static final 변경</text><text x="668" y="298" fill="#CBD5E1" font-size="18">공개 API 교체와 crash 경로 점검</text>
+    <rect x="64" y="412" width="500" height="170" rx="18" fill="#151B23" stroke="#F59E0B" stroke-width="2"/>
+    <text x="96" y="462" fill="#FCD34D" font-size="25" font-weight="700">미디어 · 백그라운드</text><text x="96" y="503" fill="#E5E7EB" font-size="19">background audio / foreground service 조건</text><text x="96" y="534" fill="#CBD5E1" font-size="18">사용자 시작·권한·서비스 유형 점검</text>
+    <rect x="636" y="412" width="500" height="170" rx="18" fill="#151B23" stroke="#34D399" stroke-width="2"/>
+    <text x="668" y="462" fill="#6EE7B7" font-size="25" font-weight="700">연결성 · BLE/RFCOMM</text><text x="668" y="503" fill="#E5E7EB" font-size="19">BluetoothSocket.read()의 -1 종료</text><text x="668" y="534" fill="#CBD5E1" font-size="18">예외만 보던 읽기 루프를 수정</text>
+  </g>
+  <text x="64" y="662" fill="#94A3B8" font-size="18" font-family="-apple-system, BlinkMacSystemFont, sans-serif">기준: Android 17 API level 37 공식 행동 변경 문서 (2026-09-08 확인)</text>
+</svg>

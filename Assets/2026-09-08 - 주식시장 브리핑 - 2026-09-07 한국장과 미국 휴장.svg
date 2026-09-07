@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 9월 7일 한국 증시 변동과 미국 휴장</title>
+  <desc id="desc">KOSPI와 KOSDAQ의 전 거래일 대비 상승률, 미국 주식시장의 Labor Day 휴장을 함께 나타낸다.</desc>
+  <rect width="1200" height="720" fill="#0B0F14"/>
+  <text x="64" y="76" fill="#F1F5F9" font-size="34" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-weight="700">9월 7일 한국장 · 미국 정규장 휴장</text>
+  <text x="64" y="114" fill="#94A3B8" font-size="20" font-family="-apple-system, BlinkMacSystemFont, sans-serif">기준: 한국 정규장 2026-09-07 마감 / 미국 NYSE·Nasdaq Labor Day 휴장</text>
+  <line x1="190" y1="570" x2="1120" y2="570" stroke="#64748B" stroke-width="3"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+    <rect x="280" y="245" width="180" height="325" rx="14" fill="#0EA5E9"/>
+    <text x="291" y="216" fill="#F1F5F9" font-size="25" font-weight="700">KOSPI</text><text x="306" y="614" fill="#7DD3FC" font-size="22">+4.61%</text><text x="292" y="652" fill="#94A3B8" font-size="17">6,995.39</text>
+    <rect x="590" y="490" width="180" height="80" rx="14" fill="#34D399"/>
+    <text x="590" y="460" fill="#F1F5F9" font-size="25" font-weight="700">KOSDAQ</text><text x="614" y="614" fill="#6EE7B7" font-size="22">+1.07%</text><text x="617" y="652" fill="#94A3B8" font-size="17">822.19</text>
+    <rect x="900" y="310" width="180" height="260" rx="14" fill="#1F2937" stroke="#F59E0B" stroke-width="3" stroke-dasharray="10 8"/>
+    <text x="913" y="384" fill="#FCD34D" font-size="25" font-weight="700">NYSE · Nasdaq</text><text x="942" y="438" fill="#E5E7EB" font-size="23">휴장</text><text x="931" y="476" fill="#94A3B8" font-size="18">Labor Day</text>
+  </g>
+  <text x="64" y="682" fill="#94A3B8" font-size="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif">등락률은 9월 7일 한국 정규장에만 해당하며, 다음 가격 방향을 뜻하지 않는다.</text>
+</svg>
