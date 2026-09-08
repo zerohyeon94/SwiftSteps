@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 720 432" role="img" aria-labelledby="title desc">
+  <title id="title">2026년 9월 8일 사우디아라비아 공격 보도의 정보 단계</title>
+  <desc id="desc">공식 성명으로 확인된 내용, 독립 보도의 보강, 아직 미확정인 결과를 구분한 도식</desc>
+  <rect width="720" height="432" fill="#0B0F14"/>
+  <text x="40" y="48" fill="#F1F5F9" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="700">한 사건도 ‘누가 말했나’에 따라 정보의 층이 다르다</text>
+  <text x="40" y="77" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="14">2026-09-08 KST 확인 · 당사자 발표, 독립 보도, 이후 확인 대기</text>
+  <g font-family="Apple SD Gothic Neo, Arial, sans-serif">
+    <rect x="42" y="124" width="196" height="203" rx="14" fill="#17352F" stroke="#22C7B8"/>
+    <text x="67" y="158" fill="#D1FAE5" font-size="18" font-weight="700">공식 성명</text>
+    <text x="66" y="193" fill="#E5E7EB" font-size="14">사우디 외교부 발표</text>
+    <text x="66" y="221" fill="#E5E7EB" font-size="14">민간·경제 시설 표적</text>
+    <text x="66" y="249" fill="#E5E7EB" font-size="14">부상자 73명</text>
+    <text x="66" y="286" fill="#B7F5EA" font-size="13">정부의 귀속·평가도</text><text x="66" y="305" fill="#B7F5EA" font-size="13">‘발표 내용’으로 구분</text>
+    <rect x="262" y="124" width="196" height="203" rx="14" fill="#172033" stroke="#38BDF8"/>
+    <text x="287" y="158" fill="#BFE6FF" font-size="18" font-weight="700">독립 보도</text>
+    <text x="286" y="193" fill="#E5E7EB" font-size="14">AP 현지·당국 보도</text>
+    <text x="286" y="221" fill="#E5E7EB" font-size="14">석유 시설·유틸리티</text>
+    <text x="286" y="249" fill="#E5E7EB" font-size="14">화재와 부상 보강</text>
+    <text x="286" y="286" fill="#BFDFFF" font-size="13">세부 피해는 갱신될 수</text><text x="286" y="305" fill="#BFDFFF" font-size="13">있음을 함께 표시</text>
+    <rect x="482" y="124" width="196" height="203" rx="14" fill="#3A2830" stroke="#F59E0B"/>
+    <text x="507" y="158" fill="#FDE68A" font-size="18" font-weight="700">아직 미확정</text>
+    <text x="506" y="193" fill="#E5E7EB" font-size="14">최종 피해·복구 규모</text>
+    <text x="506" y="221" fill="#E5E7EB" font-size="14">생산·항행의 장기 영향</text>
+    <text x="506" y="249" fill="#E5E7EB" font-size="14">외교·군사 후속 조치</text>
+    <text x="506" y="286" fill="#FCD5B4" font-size="13">추정과 확정 결과를</text><text x="506" y="305" fill="#FCD5B4" font-size="13">섞지 않는다</text>
+  </g>
+  <text x="40" y="402" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="13">9월 초 호르무즈·걸프 해상 보도와는 별개로, 이번 자료는 사우디 내 공격과 피해 발표의 새 변화를 다룬다.</text>
+</svg>

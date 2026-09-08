@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 720 432" role="img" aria-labelledby="title desc">
+  <title id="title">Android Studio Quail 4의 skills와 로컬 모델 검토 흐름</title>
+  <desc id="desc">개발자 요청이 관련 skills 선택, 모델 작업, 변경 요약 검토로 연결되는 개념 도식</desc>
+  <rect width="720" height="432" fill="#0B0F14"/>
+  <text x="40" y="48" fill="#F1F5F9" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="700">IDE 안의 AI 작업도 ‘근거와 검토’를 분리한다</text>
+  <text x="40" y="77" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="14">Android Studio Quail 4 · 2026-09-01 공개 기준</text>
+  <g font-family="Apple SD Gothic Neo, Arial, sans-serif">
+    <rect x="44" y="157" width="142" height="94" rx="12" fill="#172033" stroke="#38BDF8"/>
+    <text x="78" y="191" fill="#E5E7EB" font-size="17" font-weight="700">개발자 요청</text>
+    <text x="63" y="218" fill="#94A3B8" font-size="13">업그레이드 · 분석</text><text x="65" y="237" fill="#94A3B8" font-size="13">리팩터링 · 점검</text>
+    <path d="M186 204 H238" stroke="#64748B" stroke-width="4"/><path d="M228 198 L238 204 L228 210" stroke="#64748B" stroke-width="4" fill="none"/>
+    <rect x="238" y="127" width="172" height="76" rx="12" fill="#1D2638" stroke="#A78BFA"/>
+    <text x="271" y="157" fill="#E5E7EB" font-size="17" font-weight="700">Android skills</text>
+    <text x="264" y="181" fill="#D8CCFF" font-size="13">관련 메타데이터와</text><text x="272" y="197" fill="#D8CCFF" font-size="13">플랫폼 지식</text>
+    <rect x="238" y="227" width="172" height="76" rx="12" fill="#1D2638" stroke="#22C7B8"/>
+    <text x="281" y="257" fill="#E5E7EB" font-size="17" font-weight="700">Gemma 4</text>
+    <text x="267" y="281" fill="#B7F5EA" font-size="13">선택 가능한 로컬</text><text x="275" y="297" fill="#B7F5EA" font-size="13">AI 보조 경로</text>
+    <path d="M410 165 H474 M410 265 H474" stroke="#64748B" stroke-width="3"/>
+    <rect x="474" y="157" width="194" height="94" rx="12" fill="#172033" stroke="#F59E0B"/>
+    <text x="509" y="190" fill="#E5E7EB" font-size="17" font-weight="700">변경 요약 검토</text>
+    <text x="502" y="217" fill="#FCD58A" font-size="13">diff · 테스트 범위 ·</text><text x="519" y="237" fill="#FCD58A" font-size="13">적용 전 확인</text>
+  </g>
+  <text x="40" y="372" fill="#CBD5E1" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="15">핵심: skill은 답을 보장하지 않는다. 실제 프로젝트의 API·빌드·테스트 결과로 변경을 검증한다.</text>
+  <text x="40" y="407" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="13">Google 발표의 기능 구조를 단순화한 개념도이며, 모델·기능 사용 가능 범위는 계정과 설정에 따라 다를 수 있다.</text>
+</svg>

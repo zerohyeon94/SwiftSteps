@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 720 432" role="img" aria-labelledby="title desc">
+  <title id="title">Swift Kotlin Day 7부터 11까지의 누적 복습 구조</title>
+  <desc id="desc">객체 모델, 초기화, 제한된 상태, 타입 검사, 클로저 수명이라는 다섯 개의 학습 주제가 복습 선택 문제로 모이는 도식</desc>
+  <rect width="720" height="432" fill="#0B0F14"/>
+  <text x="40" y="48" fill="#F1F5F9" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="700">Day 7–11 · 다섯 개념을 한 번에 다시 연결하기</text>
+  <text x="40" y="77" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="14">개념 → 코드 흐름 → 언어 차이 순으로 누적 복습</text>
+  <g font-family="Apple SD Gothic Neo, Arial, sans-serif">
+    <rect x="40" y="111" width="194" height="58" rx="10" fill="#172033" stroke="#4F8CC9"/>
+    <text x="58" y="136" fill="#BFDFFF" font-size="16" font-weight="700">Day 7</text><text x="58" y="157" fill="#E5E7EB" font-size="14">struct · class · data class</text>
+    <rect x="40" y="181" width="194" height="58" rx="10" fill="#172033" stroke="#4F8CC9"/>
+    <text x="58" y="206" fill="#BFDFFF" font-size="16" font-weight="700">Day 8</text><text x="58" y="227" fill="#E5E7EB" font-size="14">프로퍼티와 초기화</text>
+    <rect x="40" y="251" width="194" height="58" rx="10" fill="#172033" stroke="#A78BFA"/>
+    <text x="58" y="276" fill="#D8CCFF" font-size="16" font-weight="700">Day 9</text><text x="58" y="297" fill="#E5E7EB" font-size="14">enum · sealed class</text>
+    <rect x="40" y="321" width="194" height="58" rx="10" fill="#172033" stroke="#22C7B8"/>
+    <text x="58" y="346" fill="#B7F5EA" font-size="16" font-weight="700">Day 10</text><text x="58" y="367" fill="#E5E7EB" font-size="14">타입 캐스팅</text>
+    <rect x="258" y="146" width="194" height="58" rx="10" fill="#1F2937" stroke="#F59E0B"/>
+    <text x="276" y="171" fill="#FCD58A" font-size="16" font-weight="700">Day 11</text><text x="276" y="192" fill="#E5E7EB" font-size="14">closure · lambda 수명</text>
+    <path d="M234 140 H258 M234 210 H258 M234 280 H258 M234 350 H258 M452 175 H478" stroke="#64748B" stroke-width="3" fill="none"/>
+    <path d="M468 170 L478 175 L468 180" stroke="#64748B" stroke-width="3" fill="none"/>
+    <rect x="478" y="121" width="202" height="218" rx="14" fill="#151B23" stroke="#38BDF8"/>
+    <text x="500" y="153" fill="#7DD3FC" font-size="18" font-weight="700">누적 복습</text>
+    <text x="500" y="188" fill="#E5E7EB" font-size="15">1. 개념 설명</text>
+    <text x="500" y="219" fill="#E5E7EB" font-size="15">2. Swift 실행 흐름</text>
+    <text x="500" y="250" fill="#E5E7EB" font-size="15">3. Kotlin 실행 흐름</text>
+    <text x="500" y="281" fill="#E5E7EB" font-size="15">4. 오류·올바른 코드</text>
+    <text x="500" y="312" fill="#E5E7EB" font-size="15">5. 두 언어의 차이</text>
+  </g>
+  <text x="40" y="410" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="13">정답을 보기 전 선택하고, 해설로 개념의 연결을 확인한다.</text>
+</svg>

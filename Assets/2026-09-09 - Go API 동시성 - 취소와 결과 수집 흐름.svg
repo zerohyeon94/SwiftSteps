@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 720 432" role="img" aria-labelledby="title desc">
+  <title id="title">Go API의 동시 작업과 요청 취소 흐름</title>
+  <desc id="desc">HTTP 요청의 context가 병렬 작업으로 전달되고 결과 수집 또는 취소로 갈라지는 흐름도</desc>
+  <rect width="720" height="432" fill="#0B0F14"/>
+  <text x="40" y="48" fill="#F1F5F9" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="700">하나의 요청, 여러 작업, 하나의 취소 신호</text>
+  <text x="40" y="77" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="14">context는 종료 신호를 전달하고, channel은 결과를 모은다</text>
+  <g font-family="Apple SD Gothic Neo, Arial, sans-serif">
+    <rect x="42" y="165" width="128" height="68" rx="12" fill="#172033" stroke="#38BDF8"/>
+    <text x="65" y="193" fill="#E5E7EB" font-size="17" font-weight="700">HTTP 요청</text><text x="59" y="215" fill="#94A3B8" font-size="13">deadline · disconnect</text>
+    <path d="M170 199 H238" stroke="#38BDF8" stroke-width="4"/><path d="M228 193 L238 199 L228 205" stroke="#38BDF8" stroke-width="4" fill="none"/>
+    <rect x="238" y="165" width="142" height="68" rx="12" fill="#172033" stroke="#A78BFA"/>
+    <text x="273" y="193" fill="#E5E7EB" font-size="17" font-weight="700">service</text><text x="259" y="215" fill="#C4B5FD" font-size="13">ctx를 작업에 전달</text>
+    <path d="M380 182 H438 M380 216 H438" stroke="#A78BFA" stroke-width="3"/>
+    <rect x="438" y="116" width="154" height="59" rx="11" fill="#1F2937" stroke="#22C7B8"/>
+    <text x="470" y="141" fill="#E5E7EB" font-size="16" font-weight="700">DB 조회</text><text x="461" y="161" fill="#B7F5EA" font-size="12">select ctx.Done</text>
+    <rect x="438" y="224" width="154" height="59" rx="11" fill="#1F2937" stroke="#F59E0B"/>
+    <text x="463" y="249" fill="#E5E7EB" font-size="16" font-weight="700">외부 API</text><text x="458" y="269" fill="#FCD58A" font-size="12">select ctx.Done</text>
+    <path d="M515 175 V198 M515 224 V198 M592 198 H637" stroke="#64748B" stroke-width="3" fill="none"/>
+    <rect x="637" y="165" width="55" height="68" rx="11" fill="#172033" stroke="#38BDF8"/>
+    <text x="647" y="193" fill="#E5E7EB" font-size="14" font-weight="700">결과</text><text x="649" y="214" fill="#94A3B8" font-size="12">응답</text>
+    <rect x="238" y="323" width="354" height="52" rx="10" fill="#2A1D16" stroke="#F97316"/>
+    <text x="261" y="355" fill="#FCD5B4" font-size="15">취소·마감: 새 작업을 시작하지 않고, 이미 시작한 작업이 종료 신호를 확인한다</text>
+    <path d="M309 233 V323" stroke="#F97316" stroke-width="3" stroke-dasharray="6 6"/>
+  </g>
+  <text x="40" y="410" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="13">취소는 즉시 강제 종료가 아니라, 호출한 API와 작업 코드가 신호를 처리할 때 효과가 난다.</text>
+</svg>

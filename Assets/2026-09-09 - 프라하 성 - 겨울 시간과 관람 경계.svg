@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="432" viewBox="0 0 720 432" role="img" aria-labelledby="title desc">
+  <title id="title">프라하 성 겨울 방문에서 분리해 볼 시간 경계</title>
+  <desc id="desc">성 단지, 역사 건물, 성 비투스 대성당, 정원의 겨울 운영 시간이 서로 다름을 보여주는 도식</desc>
+  <rect width="720" height="432" fill="#0B0F14"/>
+  <text x="40" y="48" fill="#F1F5F9" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="24" font-weight="700">프라하 성은 한 장소지만, 닫히는 시각은 하나가 아니다</text>
+  <text x="40" y="77" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="14">겨울 관광 시즌(11월–3월) 공식 안내를 기준으로 한 확인 순서</text>
+  <g font-family="Apple SD Gothic Neo, Arial, sans-serif">
+    <line x1="123" y1="122" x2="123" y2="342" stroke="#475569" stroke-width="2"/>
+    <line x1="123" y1="342" x2="670" y2="342" stroke="#475569" stroke-width="2"/>
+    <g fill="#94A3B8" font-size="13"><text x="114" y="365">06</text><text x="218" y="365">09</text><text x="470" y="365">16</text><text x="595" y="365">22</text></g>
+    <text x="44" y="151" fill="#E5E7EB" font-size="15">성 단지</text>
+    <rect x="123" y="131" width="503" height="31" rx="8" fill="#1D4E68"/><text x="338" y="152" fill="#E0F2FE" font-size="14">06:00–22:00</text>
+    <text x="44" y="201" fill="#E5E7EB" font-size="15">역사 건물</text>
+    <rect x="218" y="181" width="252" height="31" rx="8" fill="#3B2E5A"/><text x="302" y="202" fill="#E9D5FF" font-size="14">09:00–16:00</text>
+    <text x="44" y="251" fill="#E5E7EB" font-size="15">대성당</text>
+    <rect x="218" y="231" width="252" height="31" rx="8" fill="#3B2E5A"/><text x="270" y="252" fill="#E9D5FF" font-size="14">월–토 09:00–16:00</text>
+    <text x="44" y="301" fill="#E5E7EB" font-size="15">정원</text>
+    <rect x="218" y="281" width="252" height="31" rx="8" fill="#3A2830"/><text x="265" y="302" fill="#FDE68A" font-size="14">대부분 겨울 비공개</text>
+  </g>
+  <text x="40" y="400" fill="#94A3B8" font-family="Apple SD Gothic Neo, Arial, sans-serif" font-size="13">성당 일요일·기념일·행사와 보안 검색·임시 제한은 별도 공지가 우선한다. 출발 전 당일 공지를 다시 확인한다.</text>
+</svg>
